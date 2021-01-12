@@ -1,16 +1,27 @@
 /*font*/
 @font-face {
-    font-family: 'Cafe24Ohsquare';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Cafe24Simplehae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cafe24Danjunghae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Danjunghae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cafe24Dangdanghae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.2/Cafe24Dangdanghae.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
 html{
-    font-family: 'Cafe24Ohsquare';
+  font-family: 'Cafe24Simplehae', 'Cafe24Danjunghae', 'Cafe24Dangdanghae', sans-serif;
 }
-
 
 /*nomalize*/
 body, ul, li{
