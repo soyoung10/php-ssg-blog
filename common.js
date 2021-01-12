@@ -74,6 +74,7 @@ function Editor__init() {
 }
 Editor__init();
 
+
 function EditorViewer__init() {
   $('.toast-ui-viewer').each(function (index, node) {
     var initialValue = $(node).prev().html().trim().replace(/<!--REPLACE:script-->/gi, 'script');
