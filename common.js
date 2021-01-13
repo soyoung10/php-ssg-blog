@@ -1,5 +1,35 @@
 console.clear();
 
+/*cursor*/
+const $cursor = $('.cursor');
+const $cursorShadow = $('.cursor-shadow');
+
+$(window).mousemove(function(e) {
+  console.log("e.clientX : " + e.clientX);
+  console.log("e.clientY : " + e.clientY);
+  
+  $cursor.css({
+    top:e.clientY,
+    left:e.clientX
+  });
+  
+  $cursorShadow.css({
+    top:e.clientY,
+    left:e.clientX
+  });
+  
+});
+
+$('.cursor-big').mouseenter(function(){
+  $('html').addClass('need-to-cursor-big');
+});
+
+$('.cursor-big').mouseleave(function(){
+  $('html').removeClass('need-to-cursor-big');
+});
+
+
+
 function MobileTopBar__init() {
   $('.mobile-top-bar__btn-toggle-side-bar').click(function () {
     let $this = $(this);
@@ -17,7 +47,7 @@ function MobileTopBar__init() {
 MobileTopBar__init();
 
 /*toast ui*/
-// 유튜브 플러그인 시작
+// 유튜브 플러그인
 function youtubePlugin() {
   toastui.Editor.codeBlockManager.setReplacer('youtube', youtubeId => {
     // Indentify multiple code blocks
@@ -35,9 +65,9 @@ function renderYoutube(wrapperId, youtubeId) {
 
   el.innerHTML = `<div class="toast-ui-youtube-plugin-wrap"><iframe src="https://www.youtube.com/embed/${youtubeId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;
 }
-// 유튜브 플러그인 끝
 
-// codepen 플러그인 시작
+
+// codepen 플러그인
 function codepenPlugin() {
   toastui.Editor.codeBlockManager.setReplacer('codepen', url => {
     const wrapperId = `yt${Math.random().toString(36).substr(2, 10)}`;
@@ -57,7 +87,7 @@ function renderCodepen(wrapperId, url) {
 
   el.innerHTML = `<div class="toast-ui-codepen-plugin-wrap"><iframe height="${height}" scrolling="no" src="${url}" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true"></iframe></div>`;
 }
-// codepen 플러그인 끝
+
 
 function Editor__init() {
   $('.toast-ui-editor').each(function (index, node) {
