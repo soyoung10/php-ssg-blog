@@ -1,5 +1,34 @@
 console.clear();
 
+/*cursor*/
+const $cursor = $('.cursor');
+const $cursorShadow = $('.cursor-shadow');
+
+$(window).mousemove(function(e) {
+  console.log("e.clientX : " + e.clientX);
+  console.log("e.clientY : " + e.clientY);
+  
+  $cursor.css({
+    top:e.clientY,
+    left:e.clientX
+  });
+  
+  $cursorShadow.css({
+    top:e.clientY,
+    left:e.clientX
+  });
+  
+});
+
+$('.cursor-big').mouseenter(function(){
+  $('html').addClass('need-to-cursor-big');
+});
+
+$('.cursor-big').mouseleave(function(){
+  $('html').removeClass('need-to-cursor-big');
+});
+
+
 function MobileTopBar__init() {
   $('.mobile-top-bar__btn-toggle-side-bar').click(function () {
     let $this = $(this);
