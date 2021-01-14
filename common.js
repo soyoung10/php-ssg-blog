@@ -1,33 +1,31 @@
 console.clear();
 
-/*cursor*/
 const $cursor = $('.cursor');
 const $cursorShadow = $('.cursor-shadow');
 
-$(window).mousemove(function(e) {
+$(window).mousemove(function (e) {
   console.log("e.clientX : " + e.clientX);
   console.log("e.clientY : " + e.clientY);
-  
+
   $cursor.css({
-    top:e.clientY,
-    left:e.clientX
+    top: e.clientY,
+    left: e.clientX
   });
-  
+
   $cursorShadow.css({
-    top:e.clientY,
-    left:e.clientX
+    top: e.clientY,
+    left: e.clientX
   });
-  
+
 });
 
-$('.cursor-big').mouseenter(function(){
+$('.cursor-big').mouseenter(function () {
   $('html').addClass('need-to-cursor-big');
 });
 
-$('.cursor-big').mouseleave(function(){
+$('.cursor-big').mouseleave(function () {
   $('html').removeClass('need-to-cursor-big');
 });
-
 
 
 function MobileTopBar__init() {
@@ -46,8 +44,10 @@ function MobileTopBar__init() {
 
 MobileTopBar__init();
 
+
 /*toast ui*/
-// À¯Æ©ºê ÇÃ·¯±×ÀÎ
+
+// ìœ íŠœë¸Œ í”ŒëŸ¬ê·¸ì¸ 
 function youtubePlugin() {
   toastui.Editor.codeBlockManager.setReplacer('youtube', youtubeId => {
     // Indentify multiple code blocks
@@ -66,8 +66,54 @@ function renderYoutube(wrapperId, youtubeId) {
   el.innerHTML = `<div class="toast-ui-youtube-plugin-wrap"><iframe src="https://www.youtube.com/embed/${youtubeId}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;
 }
 
+const markdownBody = `
+# JAVA
+\`\`\`youtube
+x5g95m_UbzA
+\`\`\`
 
-// codepen ÇÃ·¯±×ÀÎ
+\`\`\`java
+import java.util.List;
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("HI");
+  }
+}
+\`\`\`
+
+# PHP TEMPLATE
+
+\`\`\`php-template
+<div class="a">
+<?php echo $a; ?>
+</div>
+\`\`\`
+`;
+
+function Editor1__init() {
+  var editor = new toastui.Editor({
+    el: document.querySelector('#editor-1'),
+    previewStyle: 'vertical',
+    initialValue: markdownBody.trim(),
+    height: 600,
+    plugins: [toastui.Editor.plugin.codeSyntaxHighlight, youtubePlugin]
+  });
+}
+Editor1__init();
+
+function EditorViewer1__init() {
+  var viewer = new toastui.Editor.factory({
+    el: document.querySelector('#editor-viewer-1'),
+    initialValue: markdownBody.trim(),
+    viewer: true,
+    plugins: [toastui.Editor.plugin.codeSyntaxHighlight, youtubePlugin]
+  });
+}
+EditorViewer1__init();
+
+
+// codepen í”ŒëŸ¬ê·¸ì¸
 function codepenPlugin() {
   toastui.Editor.codeBlockManager.setReplacer('codepen', url => {
     const wrapperId = `yt${Math.random().toString(36).substr(2, 10)}`;
@@ -89,6 +135,9 @@ function renderCodepen(wrapperId, url) {
 }
 
 
+
+// editor
+
 function Editor__init() {
   $('.toast-ui-editor').each(function (index, node) {
     var initialValue = $(node).prev().html().trim().replace(/<!--REPLACE:script-->/gi, 'script');
@@ -103,6 +152,9 @@ function Editor__init() {
   });
 }
 Editor__init();
+
+
+// editorviewer
 
 
 function EditorViewer__init() {
