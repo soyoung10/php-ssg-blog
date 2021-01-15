@@ -9,11 +9,11 @@ foreach ( $originFiles as $index => $originFile ) {
     $command = "c:\\xampp\\php\\php.exe {$originFile} > {$distFileName}";
     shell_exec($command);
 
-    $newSource = file_get_content($distFileName);
+    $newSource = file_get_contents($distFileName);
     $newSource = str_replace(".ssghtml.php", ".html", $newSource);
     file_put_contents($distFileName, $newSource);
 
-    echo "{$index} : {originFile} 积己凳\n";
+    echo "{$index} : {$distFileName} 积己凳\n";
     exit;
     exit;
 }
