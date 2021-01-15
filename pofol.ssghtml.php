@@ -8,7 +8,7 @@ require_once "head.php";
             <i class="fas fa-paste"></i>
         </span>
         <span>
-            Portfolio
+            PORTFOLIO
         </span>
     </h1>
 </section>
