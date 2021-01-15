@@ -72,7 +72,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="flex jc-c ai-c height-100p">
+                            <a href="pofol.php" class="flex jc-c ai-c height-100p">
                                 <span>
                                     <i class="fas fa-paste"></i>
                                 </span>
