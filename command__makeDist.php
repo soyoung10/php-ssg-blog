@@ -14,7 +14,5 @@ foreach ( $originFiles as $index => $originFile ) {
     file_put_contents($distFileName, $newSource);
 
     echo "{$index} : {$distFileName} »ý¼ºµÊ\n";
-    exit;
-    exit;
 }
 
