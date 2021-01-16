@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design SheRRy</title>
 
-    <!--반응형-->
+<!--반응형-->
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 
 <!--제이쿼리-->
@@ -38,7 +38,6 @@
 <div class="body-content">
 
 </head>
-
 
 <body>
   <header class="top-bar con-min-width visible-md-up">
@@ -142,28 +141,3 @@
 
   <main>
 
-    <section class="section-title con-min-width">
-      <h1 class="con">
-        <span>
-          <i class="fas fa-clock"></i>
-        </span>
-        <span>
-          LATEST ARTICLES
-        </span>
-      </h1>
-    </section>
-
-  </main>
-
-  <footer class="bottom-bar con-min-width">
-    <div class="con flex jc-c">
-      <a href="#" class="logo">
-        <span><i class="fas fa-palette"></i><i class="fas fa-paint-brush"></i></span>
-        <span>DESIGN SheRRy</span>
-      </a>
-    </div>
-  </footer>
-
-</div>
-</body>
-</html>
