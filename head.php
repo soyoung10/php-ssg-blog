@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design SheRRy</title>
+    <title><?php echo $siteTitle; ?></title>
 
     <!--반응형-->
     <meta name="viewport" content="width=device-width, user-scalable=no" />
