@@ -168,7 +168,7 @@ require_once "head.php";
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-     </DIV>      
+  </div>      
 
         <li>
           <h1 class="title">1화, jQuery 개요</h1>
