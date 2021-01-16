@@ -18,10 +18,10 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="title">2Ìôî, jQuery Ï†ÅÏö©</h1>
-          <div class="reg-date"> ÏûëÏÑ± 2020-01-12 18:22:16</div>
+          <h1 class="title"><?=$article1["title"]?></h1>
+          <div class="reg-date">$article1["regDate"]</div>
           <div class="article-list-box__writer">
-            <span>ÏµúÏÜåÏòÅ</span>
+            <span>√÷º“øµ</span>
             <span>
               <svg id="avatar-1" viewBox="0 0 264 280" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" style="width:90px">
@@ -43,7 +43,7 @@ require_once "head.php";
                         </mask>
                         <use id="Circle-Background" fill="#E6E6E6" xlink:href="#path-1"></use>
                         <g id="Color/Palette/Blue-01" mask="url(#mask-2)" fill="#65C9FF">
-                          <rect id="üñçColor" x="0" y="0" width="240" height="240"></rect>
+                          <rect id="?üñçColor" x="0" y="0" width="240" height="240"></rect>
                         </g>
                       </g>
                       <mask id="mask-4" fill="white">
@@ -56,7 +56,7 @@ require_once "head.php";
                             <use xlink:href="#path-5"></use>
                           </mask>
                           <use fill="#D0C6AC" xlink:href="#path-5"></use>
-                          <g id="Skin/üë∂üèΩ-03-Brown" mask="url(#mask-6)" fill="#FFDBB4">
+                          <g id="Skin/?üë∂üè?-03-Brown" mask="url(#mask-6)" fill="#FFDBB4">
                             <g transform="translate(-32.000000, 0.000000)" id="Color">
                               <rect x="0" y="0" width="264" height="244"></rect>
                             </g>
@@ -76,11 +76,11 @@ require_once "head.php";
                           </mask>
                           <use id="Clothes" fill="#E6E6E6" fill-rule="evenodd" xlink:href="#react-path-87"></use>
                           <g id="Color/Palette/Gray-01" mask="url(#react-mask-88)" fill-rule="evenodd" fill="#FFAFB9">
-                            <rect id="üñçColor" x="0" y="0" width="264" height="110"></rect>
+                            <rect id="?üñçColor" x="0" y="0" width="264" height="110"></rect>
                           </g>
                           <g id="Shadowy" opacity="0.599999964" stroke-width="1" fill-rule="evenodd"
                             mask="url(#react-mask-88)" fill-opacity="0.16" fill="#000000">
-                            <g transform="translate(92.000000, 4.000000)" id="Hola-üëãüèº">
+                            <g transform="translate(92.000000, 4.000000)" id="Hola-?üëãüè?">
                               <ellipse cx="40.5" cy="27.8476251" rx="39.6351047" ry="26.9138272"></ellipse>
                             </g>
                           </g>
@@ -95,7 +95,7 @@ require_once "head.php";
                             <path d="M16,8 C16,12.418278 21.372583,16 28,16 L28,16 C34.627417,16 40,12.418278 40,8"
                               id="Nose"></path>
                           </g>
-                          <g id="Eyes/Default-üòÄ" transform="translate(0.000000, 8.000000)" fill-opacity="0.599999964">
+                          <g id="Eyes/Default-?üò?" transform="translate(0.000000, 8.000000)" fill-opacity="0.599999964">
                             <circle id="Eye" cx="30" cy="22" r="6"></circle>
                             <circle id="Eye" cx="82" cy="22" r="6"></circle>
                           </g>
@@ -131,7 +131,7 @@ require_once "head.php";
                                   <use xlink:href="#react-path-82"></use>
                                 </mask>
                                 <use id="Mask-Hair" fill="#944F23" xlink:href="#react-path-82"></use>
-                                <g id="Skin/üë∂üèΩ-03-Brown" mask="url(#react-mask-80)" fill="#A55728">
+                                <g id="Skin/?üë∂üè?-03-Brown" mask="url(#react-mask-80)" fill="#A55728">
                                   <g transform="translate(0.000000, 0.000000) " id="Color">
                                     <rect x="0" y="0" width="264" height="280"></rect>
                                   </g>
@@ -171,10 +171,10 @@ require_once "head.php";
   </div>      
 
         <li>
-          <h1 class="title">1Ìôî, jQuery Í∞úÏöî</h1>
-          <div class="reg-date"> ÏûëÏÑ± 2020-01-12 17:47:14</div>
+          <h1 class="title">1?ôî, jQuery Í∞úÏöî</h1>
+          <div class="reg-date"> ¿€º∫ 2020-01-12 17:47:14</div>
           <div class="article-list-box__writer">
-            <span>ÏµúÏÜåÏòÅ</span>
+            <span>ÏµúÏÜå?òÅ</span>
             <span>
               <svg id="avatar-1" viewBox="0 0 264 280" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" style="width:90px">
@@ -196,7 +196,7 @@ require_once "head.php";
                         </mask>
                         <use id="Circle-Background" fill="#E6E6E6" xlink:href="#path-1"></use>
                         <g id="Color/Palette/Blue-01" mask="url(#mask-2)" fill="#65C9FF">
-                          <rect id="üñçColor" x="0" y="0" width="240" height="240"></rect>
+                          <rect id="?üñçColor" x="0" y="0" width="240" height="240"></rect>
                         </g>
                       </g>
                       <mask id="mask-4" fill="white">
@@ -209,7 +209,7 @@ require_once "head.php";
                             <use xlink:href="#path-5"></use>
                           </mask>
                           <use fill="#D0C6AC" xlink:href="#path-5"></use>
-                          <g id="Skin/üë∂üèΩ-03-Brown" mask="url(#mask-6)" fill="#FFDBB4">
+                          <g id="Skin/?üë∂üè?-03-Brown" mask="url(#mask-6)" fill="#FFDBB4">
                             <g transform="translate(-32.000000, 0.000000)" id="Color">
                               <rect x="0" y="0" width="264" height="244"></rect>
                             </g>
@@ -229,11 +229,11 @@ require_once "head.php";
                           </mask>
                           <use id="Clothes" fill="#E6E6E6" fill-rule="evenodd" xlink:href="#react-path-87"></use>
                           <g id="Color/Palette/Gray-01" mask="url(#react-mask-88)" fill-rule="evenodd" fill="#FFAFB9">
-                            <rect id="üñçColor" x="0" y="0" width="264" height="110"></rect>
+                            <rect id="?üñçColor" x="0" y="0" width="264" height="110"></rect>
                           </g>
                           <g id="Shadowy" opacity="0.599999964" stroke-width="1" fill-rule="evenodd"
                             mask="url(#react-mask-88)" fill-opacity="0.16" fill="#000000">
-                            <g transform="translate(92.000000, 4.000000)" id="Hola-üëãüèº">
+                            <g transform="translate(92.000000, 4.000000)" id="Hola-?üëãüè?">
                               <ellipse cx="40.5" cy="27.8476251" rx="39.6351047" ry="26.9138272"></ellipse>
                             </g>
                           </g>
@@ -248,7 +248,7 @@ require_once "head.php";
                             <path d="M16,8 C16,12.418278 21.372583,16 28,16 L28,16 C34.627417,16 40,12.418278 40,8"
                               id="Nose"></path>
                           </g>
-                          <g id="Eyes/Default-üòÄ" transform="translate(0.000000, 8.000000)" fill-opacity="0.599999964">
+                          <g id="Eyes/Default-?üò?" transform="translate(0.000000, 8.000000)" fill-opacity="0.599999964">
                             <circle id="Eye" cx="30" cy="22" r="6"></circle>
                             <circle id="Eye" cx="82" cy="22" r="6"></circle>
                           </g>
@@ -284,7 +284,7 @@ require_once "head.php";
                                   <use xlink:href="#react-path-82"></use>
                                 </mask>
                                 <use id="Mask-Hair" fill="#944F23" xlink:href="#react-path-82"></use>
-                                <g id="Skin/üë∂üèΩ-03-Brown" mask="url(#react-mask-80)" fill="#A55728">
+                                <g id="Skin/?üë∂üè?-03-Brown" mask="url(#react-mask-80)" fill="#A55728">
                                   <g transform="translate(0.000000, 0.000000) " id="Color">
                                     <rect x="0" y="0" width="264" height="280"></rect>
                                   </g>
