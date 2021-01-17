@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design SheRRy</title>
 
+
 <!--¹ÝÀÀÇü-->
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 
@@ -36,6 +37,13 @@
 
 <!-- body content -->
 <div class="body-content">
+
+
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/common.js"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
 
 </head>
 
