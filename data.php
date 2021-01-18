@@ -1,4 +1,6 @@
 <?php
+echo $articleId;
+
 $siteTitle = "Disign sheRRy";
 
 $article1 = [];
@@ -60,5 +62,5 @@ https://codepen.io/soyoung10/embed/gOwmGOo?height=300&theme-id=light&default-tab
 
 EOT;
 
-print_r($article1);
-exit;
+$articleVarName = "article" . $articleId;
+$selentedArticle = $$articleVarName;
