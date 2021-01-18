@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="euc-kr">
+<html lang="ko">
 
 
 <head>
@@ -78,7 +78,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="flex jc-c ai-c height-100p">
+            <a href="pofol.ssghtml.php" class="flex jc-c ai-c height-100p">
               <span>
                 <i class="fas fa-paste"></i>
               </span>
@@ -86,7 +86,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="flex jc-c ai-c height-100p">
+            <a href="article.ssghtml.php" class="flex jc-c ai-c height-100p">
               <span>
                 <i class="fas fa-folder"></i>
               </span>
