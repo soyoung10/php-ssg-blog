@@ -1,5 +1,5 @@
 <?php
-require_once "data.php";
+require_once "data.php"; 
 require_once "head.php";
 ?>
 
@@ -18,140 +18,32 @@ require_once "head.php";
   </h1>
 </section>
 
-<section class="section-latest-articles con-min-width">
-  <div class="con">
-    <div class="article-list-box">
-      <ul>
-        <li>
-          <h1 class="title"><?=$article1["title"]?></h1>
-          <div class="reg-date"><?=$article1["regDate"]?></div>
-          <div class="article-list-box__writer">
-            <span><?=$article1["writerName"]?></span>
-            <span>
-              <?=$article1["writerAvatar"]?>
-            </span>
-          </div>
-          <div class="article-list-box__body">
-            <script type="text/x-template">
-              <?=$article1["body"]?>
-            </script>
-            <div class="toast-ui-viewer"></div>
-          </div>
-        </li>
-        <li>
-          <h1 class="title">3화, jQuery CSS 함수 개념</h1>
-          <div class="reg-date">2021-01-14 17:47:14</div>
-          <div class="article-list-box__writer">
-            <span>최소영</span>
-            <span>
-              <svg viewBox="0 0 264 280" style="width:80px">
-                <use xlink:href="#avatar-1"></use>
-              </svg>
-            </span>
-          </div>
-          <div class="body">
-            <script type="text/x-template">
-              # 개요
-- jQuery 내에서 CSS 값을 취득하거나 설정하는 함수
-
-# 참고
-- .addClass() : class 추가
-- .removeClass() : class 제거
-- .css() : 스타일 속성값 설정
-
-# 사용방식
-
-```html
-
-<t-script>
-console.clear();
-
-$('button:nth-of-type(1)').click(function(){
-$('___').addClass('active');
-)};
-
-  
-$('button:nth-of-type(2)').click(function(){
-$('___').removeClass('active');
-});
-
-
-</t-script>
-```
-                </script>
-            <div class="toast-ui-viewer"></div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
 
 <section class="section-latest-articles con-min-width">
   <div class="con">
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="title">2화, jQuery 적용</h1>
-          <div class="reg-date"> 작성 2020-01-12 18:22:16</div>
+          <h1 class="title"><a href="article_detail_2.ssghtml.php"><?=$article2["title"]?></a></h1>
+          <div class="reg-date"><?=$article2["regDate"]?></div>
           <div class="article-list-box__writer">
-            <span>최소영</span>
+            <span><?=$article2["writerName"]?></span>
             <span>
-              <svg viewBox="0 0 264 280" style="width:80px">
-                <use xlink:href="#avatar-1"></use>
-              </svg>
-            </span>
+              <?=$article2["writerAvatar"]?>
           </div>
           <div class="article-list-box__body">
             <script type="text/x-template">
-              # HTML
-```html
-<t-script>
-  <button onclick="a();">나를 눌러요</button>
-  <div></div>
-  <div></div>
-</t-script>
-```
-
-# CSS
-```CSS
-div{
-  width: 100px;
-  height: 100px;
-  background-color: purple;
-  margin: 10px;
-}
-```
-
-# JS
-```javascript
-/*
-console.clear();
-
-function a() {
-  var $div = $('div');
-  $div.css('background-color', 'pink');
-}
-*/
-
-function a(){
- $('div').css('background-color', 'pink');
-}
-```
-
-# 실습
-```codepen
-https://codepen.io/soyoung10/embed/JjRRVBW?height=300&theme-id=light&default-tab=js,result&editable=true
-```
+            <?=$article2["body"]?>  
                 </script>
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
+
         <li>
-          <h1 class="title">1화, jQuery 개요</h1>
-          <div class="reg-date"> 작성 2020-01-12 17:47:14</div>
+          <h1 class="title"><a href="article_detail_2.ssghtml.php"><?=$article1["title"]?></a></h1>
+          <div class="reg-date"><?=$article1["regDate"]?><</div>
           <div class="article-list-box__writer">
-            <span>최소영</span>
+          <span><?=$article1["writerName"]?></span>
             <span>
               <svg id="avatar-1" viewBox="0 0 264 280" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" style="width:80px">
@@ -282,40 +174,7 @@ https://codepen.io/soyoung10/embed/JjRRVBW?height=300&theme-id=light&default-tab
           </div>
           <div class="body">
             <script type="text/x-template">
-              # 개요
-- jQuery는 엘리먼트를 선택하여 선택된 엘리먼트들을 효율적으로 제어할 수 있는 자바스크립트 라이브러리
-- HTML의 클라이언트 사이드 조작을 단순화하도록 설계된 JS 라이브러리 
-
-# CDN
-- https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
-
-# 사용방식
-- jQuery 공식 >> $('선택자').동작함수('동작함수 적용값');
-
-```html
-
-<t-script>
-console.clear();
-
-
-function _(){
-$('___').___('____', '___');
-}
-
-
-function _(){
-var $___ = $('___');
-$___.eq(n).___('____', '___');
-$___.eq(n).___('____', '___');
-$___.eq(n).___('____', '___');
-$___.eq(n).___('____', '___');
-...
-...
-}
-
-
-</t-script>
-```
+            <?=$article1["body"]?>  
                 </script>
             <div class="toast-ui-viewer"></div>
           </div>
