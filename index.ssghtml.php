@@ -23,67 +23,18 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="title">4화, jQuery CLASS</h1>
-          <div class="reg-date">2021-01-14 18:22:16</div>
+          <h1 class="title"><?=$article1["title"]?></h1>
+          <div class="reg-date"><?=$article1["regDate"]?></div>
           <div class="article-list-box__writer">
-            <span>최소영</span>
+            <span><?=$article1["writerName"]?></span>
             <span>
-              <svg viewBox="0 0 264 280" style="width:80px">
-                <use xlink:href="#avatar-1"></use>
-              </svg>
+              <?=$article1["writerAvatar"]?>
             </span>
           </div>
-          <div class="body">
+          <div class="article-list-box__body">
             <script type="text/x-template">
-              # HTML
-```html
-<t-script>
-  
-<button>회전</button>
-<button>리셋</button>
-
-<div class=""></div>
-</t-script>
-```
-
-# CSS
-```CSS
-div{
-  width: 200px;
-  height: 200px;
-  background-color: lightcoral;
-  transition: all 1s;
-}
-
-.active{
-  background-color: lemonchiffon;
-  width: 500px;
-  height: 500px;
-  border-radius: 1000px;
-  transform: rotate(1000deg) scale (0.5);
-}
-```
-
-# JS
-```javascript
-
-console.clear();
-
-$('button:nth-of-type(1)').click(function(){
-  $('div').addClass('active');
-});
-
-$('button:nth-of-type(2)').click(function(){
-  $('div').removeClass('active');
-});
-
-```
-
-# 실습
-```codepen
-https://codepen.io/soyoung10/embed/gOwmGOo?height=300&theme-id=light&default-tab=js,result&editable=true
-```
-                </script>
+              <?=$article1["body"]?>
+            </script>
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
