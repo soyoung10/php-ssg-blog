@@ -3,6 +3,8 @@ require_once "data.php";
 require_once "head.php";
 ?>
 
+<link rel="stylesheet" href="css/about.css">
+
 <script src="js/about.js" defer></script>
 
 <section class="section-title con-min-width">
@@ -14,16 +16,16 @@ require_once "head.php";
 
 <section class="section-article-detail con-min-width">
   <div class="con">
-    <h1 class="title"><a href="article_detail_2.ssghtml.php"><?=$article2["title"]?></a></h1>
-    <div class="reg-date"><?=$article2["regDate"]?></div>
+    <h1 class="title"><a href="article_detail_2.ssghtml.php"><?=$article1["title"]?></a></h1>
+    <div class="reg-date"><?=$article1["regDate"]?></div>
     <div class="article-list-box__writer">
-      <span><?=$article2["writerName"]?></span>
+      <span><?=$article1["writerName"]?></span>
       <span>
-        <?=$article2["writerAvatar"]?>
+        <?=$article1["writerAvatar"]?>
     </div>
     <div class="article-list-box__body">
       <script type="text/x-template">
-        <?=$article2["body"]?>
+        <?=$selectedArticle["body"]?>
       </script>
       <div class="toast-ui-viewer"></div>
     </div>

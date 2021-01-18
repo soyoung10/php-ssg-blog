@@ -1,66 +1,103 @@
 <?php
-echo $articleId;
+$siteTitle = "Disign SheRRy;
 
-$siteTitle = "Disign sheRRy";
 
-$article1 = [];
-$article1["title"] = "4화, jQuery CLASS";
-$article1["regDate"] = "2021-01-14 18:22:16";
-$article1["writerName"] = "최소영";
-$article1["writerAvatar"] = '<svg viewBox="0 0 264 280" style="width:80px">
-<use xlink:href="#avatar-1"></use>
+// 게시물 2
+$article2 = [];
+$article2["id"] = 2;
+$article2["title"] = "jQuery Apply";
+$article2["regDate"] = "2020-01-12 18:22:16";
+$article2["writerName"] = "최소영";
+$article2["writerAvatar"] = '<svg viewBox="0 0 264 280" style="width:80px">
+<use xlink:href="#avatar-1">
+</use>
 </svg>';
-$article1["body"] = <<<EOT
-# HTML
-```html
-<t-script>
-  
-<button>회전</button>
-<button>리셋</button>
-
-<div class=""></div>
-</t-script>
+$article2["body"] = <<<EOT
 ```
 
 # CSS
 ```CSS
 div{
-  width: 200px;
-  height: 200px;
-  background-color: lightcoral;
-  transition: all 1s;
-}
-
-.active{
-  background-color: lemonchiffon;
-  width: 500px;
-  height: 500px;
-  border-radius: 1000px;
-  transform: rotate(1000deg) scale (0.5);
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin: 10px;
 }
 ```
 
 # JS
 ```javascript
-
+/*
 console.clear();
 
-$('button:nth-of-type(1)').click(function(){
-  $('div').addClass('active');
-});
+function a() {
+  var $div = $('div');
+  $div.css('background-color', 'pink');
+}
+*/
 
-$('button:nth-of-type(2)').click(function(){
-  $('div').removeClass('active');
-});
-
+function a(){
+ $('div').css('background-color', 'pink');
+}
 ```
 
 # 실습
 ```codepen
-https://codepen.io/soyoung10/embed/gOwmGOo?height=300&theme-id=light&default-tab=js,result&editable=true
-```
+https://codepen.io/soyoung10/embed/JjRRVBW?height=300&theme-id=light&default-tab=js,result&editable=true
 
+```
 EOT;
 
-$articleVarName = "article" . $articleId;
-$selentedArticle = $$articleVarName;
+
+// 게시물 1
+
+$article1 = [];
+$article1["id"] = 1;
+$article1["title"] = "jQuery Outline";
+$article1["regDate"] = "2020-01-12 17:47:14";
+$article1["writerName"] = "최소영";
+$article1["writerAvatar"] = '<svg viewBox="0 0 264 280" style="width:80px">
+<use xlink:href="#avatar-1">
+</use>
+</svg>';
+$article1["body"] = <<<EOT
+# 개요
+- jQuery는 엘리먼트를 선택하여 선택된 엘리먼트들을 효율적으로 제어할 수 있는 자바스크립트 라이브러리
+- HTML의 클라이언트 사이드 조작을 단순화하도록 설계된 JS 라이브러리 
+
+# CDN
+- https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js
+
+# 사용방식
+- jQuery 공식 >> $('선택자').동작함수('동작함수 적용값');
+
+```html
+
+<t-script>
+console.clear();
+
+
+function _(){
+$('___').___('____', '___');
+}
+
+
+function _(){
+var $___ = $('___');
+$___.eq(n).___('____', '___');
+$___.eq(n).___('____', '___');
+$___.eq(n).___('____', '___');
+$___.eq(n).___('____', '___');
+...
+...
+}
+
+
+</t-script>
+```
+EOT;
+
+if ( isset($articleId) ) {
+    $articleVarName = "article" . $articleId;
+    $selectedArticle = $$articleVarName;
+}
