@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="euc-kr">
 
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$siteTitle?></title>
 
@@ -32,6 +33,8 @@
 
 <!-- 신택스 하이라이트 플러그인 -->
 <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"></script>
+
+
 
 <!-- 커스텀 커서 -->
 <div class="cursor"></div>
