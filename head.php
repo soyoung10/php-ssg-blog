@@ -57,7 +57,7 @@
       <nav class="top-bar__menu-box-1 height-100p">
         <ul class="flex height-100p">
           <li>
-            <a href="#" class="flex jc-c ai-c height-100p">
+            <a href="index.ssghtml.php" class="flex jc-c ai-c height-100p">
               <span>
                 <i class="fas fa-home"></i>
               </span>
@@ -65,7 +65,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="flex jc-c ai-c height-100p">
+            <a href="about.ssghtml.php" class="flex jc-c ai-c height-100p">
               <span>
                 <i class="fas fa-address-card"></i>
               </span>
