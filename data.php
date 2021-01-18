@@ -4,6 +4,7 @@ $siteTitle = "Disign SheRRy;
 
 // 게시물 2
 $article2 = [];
+$article2["id"] = 2;
 $article2["title"] = "jQuery Apply";
 $article2["regDate"] = "2020-01-12 18:22:16";
 $article2["writerName"] = "최소영";
@@ -51,7 +52,7 @@ EOT;
 // 게시물 1
 
 $article1 = [];
-$article1["id"] = 1;
+$article2["id"] = 1;
 $article1["title"] = "jQuery Outline";
 $article1["regDate"] = "2020-01-12 17:47:14";
 $article1["writerName"] = "최소영";
@@ -97,6 +98,6 @@ $___.eq(n).___('____', '___');
 EOT;
 
 if ( isset($articleId) ) {
-    $articleVarName = "article" . $articleId;
-    $selectedArticle = $$articleVarName;
+  $articleVarName = "article" . $articleId;
+  $selectedArticle = $$articleVarName;
 }

@@ -456,6 +456,7 @@ a{
 /*bottom-bar*/
 
 .bottom-bar{
+  margin-top: 30x;
   background-color: #4774A1;
   color: white;
   box-shadow: 10px 0 10px 10px rgba(59,97,135,.8);
@@ -489,11 +490,26 @@ a{
 }
 
 .article-list-box__title > a:hover{
-  color: red;
+  color: #FE4365;
 }
 
 .article-list-box__reg-date::before {
-  content:"ÀÛ¼º : ";
+  content:"?? : ";
+}
+
+.article-list-box__writer {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.article-list-box__writer>span:last-child {
+  width: 70px;
+  height: 70px;
+  background-color: #65C0C3;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 10px;
 }
 
 

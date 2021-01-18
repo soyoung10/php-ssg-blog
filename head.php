@@ -52,10 +52,12 @@
 
 </head>
 
+<!-- top-bar -->
+
 <body>
   <header class="top-bar con-min-width visible-md-up">
     <div class="con height-100p flex jc-sb">
-      <a href="#" class="logo">
+      <a href="index.ssghtml.php" class="logo">
         <span><i class="fas fa-palette"></i><i class="fas fa-paint-brush"></i></span>
         <span><?php echo $siteTitle; ?></span>
       </a>
