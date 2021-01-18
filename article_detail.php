@@ -14,7 +14,7 @@ require_once "head.php";
   </h1>
 </section>
 
-<section class="section-article-detail con-min-width">
+<section class="section-article-detail con-min-width padding-0-10">
   <div class="con">
     <h1 class="title"><a href="article_detail_2.ssghtml.php"><?=$article1["title"]?></a></h1>
     <div class="reg-date"><?=$article1["regDate"]?></div>
@@ -32,21 +32,25 @@ require_once "head.php";
   </div>
 </section>
 
-</main>
 
-<footer class="bottom-bar con-min-width">
-  <div class="con flex jc-c">
-    <a href="#" class="logo">
-      <span><i class="fas fa-palette"></i><i class="fas fa-paint-brush"></i></span>
-      <span>DESIGN SheRRy</span>
-    </a>
-  </div>
-</footer>
 
-</div>
-</body>
+<section class="section-article-reply-box con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
 
-</html>
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://b.oa.gg/article_detail_<?=$articleId?>.html';
+            this.page.identifier = 'article_detail_<?=$articleId?>.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://phpblog-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    </div>
 
 <?php
 require_once "foot.php";

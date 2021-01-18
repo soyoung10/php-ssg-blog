@@ -4,7 +4,6 @@ $siteTitle = "Disign SheRRy;
 
 // 게시물 2
 $article2 = [];
-$article2["id"] = 2;
 $article2["title"] = "jQuery Apply";
 $article2["regDate"] = "2020-01-12 18:22:16";
 $article2["writerName"] = "최소영";
