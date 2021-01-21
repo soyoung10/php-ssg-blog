@@ -1,5 +1,5 @@
 <?php
-$siteTitle = "Disign SheRRy;
+$siteTitle = "Disign SheRRy";
 
 
 // 게시물 2
@@ -8,13 +8,8 @@ $article2["id"] = 2;
 $article2["title"] = "jQuery Apply";
 $article2["regDate"] = "2020-01-12 18:22:16";
 $article2["writerName"] = "최소영";
-$article2["writerAvatar"] = '<svg viewBox="0 0 264 280" style="width:80px">
-<use xlink:href="#avatar-1">
-</use>
-</svg>';
-$article2["body"] = <<<EOT
-```
-
+$article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article2["body"] = <<<'EOT'
 # CSS
 ```CSS
 div{
@@ -52,15 +47,12 @@ EOT;
 // 게시물 1
 
 $article1 = [];
-$article2["id"] = 1;
+$article1["id"] = 1;
 $article1["title"] = "jQuery Outline";
 $article1["regDate"] = "2020-01-12 17:47:14";
 $article1["writerName"] = "최소영";
-$article1["writerAvatar"] = '<svg viewBox="0 0 264 280" style="width:80px">
-<use xlink:href="#avatar-1">
-</use>
-</svg>';
-$article1["body"] = <<<EOT
+$article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article1["body"] = <<<'EOT'
 # 개요
 - jQuery는 엘리먼트를 선택하여 선택된 엘리먼트들을 효율적으로 제어할 수 있는 자바스크립트 라이브러리
 - HTML의 클라이언트 사이드 조작을 단순화하도록 설계된 JS 라이브러리 
