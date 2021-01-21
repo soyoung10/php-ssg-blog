@@ -145,9 +145,6 @@ a{
 
 /*cursor*/
 
-*{
-  cursor: none;
-}
 
 .cursor{
   position: relative;
@@ -175,35 +172,6 @@ a{
   border-radius: 100%;
   pointer-events: none;
   transform: translatex(-5%) translatey(-50%) rotate(25deg);
-}
-
-.cursor-shadow{
-  position:fixed;
-  pointer-events:none;
-  transform:translateX(-50%) translateY(-50%);
-  transition:top .3s, left .3s;
-}
-
-.cursor-shadow::before,
-.cursor-shadow::after{
-  content:"";
-  position:absolute;
-  width: 60px;
-  height: 60px;
-  border: 2px solid gold;
-  border-radius: 100%;
-  transform:rotate(45deg);
-  border-radius: 50px;
-  transform: translatex(50%) translatey(-50%);
-}
-
-.cursor-shadow::after{
-  width: 100px;
-  height: 30px;
-  border: 2px solid gold;
-  border-radius: 100%;
-  pointer-events: none;
-  transform: translatex(10%) translatey(-50%) rotate(25deg);
 }
 
 
