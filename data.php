@@ -2,6 +2,44 @@
 $siteTitle = "Disign SheRRy";
 
 
+// 게시물 3
+$article3 = [];
+$article3["id"] = 3;
+$article3["title"] = "jQuery CSS Function";
+$article3["regDate"] = "2021-01-14 17:47:14";
+$article3["writerName"] = "최소영";
+$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article3["body"] = <<<'EOT'
+# 개요
+- jQuery 내에서 CSS 값을 취득하거나 설정하는 함수
+
+# 참고
+- .addClass() : class 추가
+- .removeClass() : class 제거
+- .css() : 스타일 속성값 설정
+
+# 사용방식
+
+```html
+
+<t-script>
+console.clear();
+
+$('button:nth-of-type(1)').click(function(){
+$('___').addClass('active');
+)};
+
+  
+$('button:nth-of-type(2)').click(function(){
+$('___').removeClass('active');
+});
+
+
+```
+
+EOT;
+
+
 // 게시물 2
 $article2 = [];
 $article2["id"] = 2;
