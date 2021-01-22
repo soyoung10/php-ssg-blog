@@ -146,22 +146,83 @@
     <!--main-->
 
     <main>
-    <section class="section-title con-min-width">
-      <h1 class="con">
-        <span>
-          <i class="fas fa-address-card"></i>
-        </span>
-        <span>
-          ABOUT
-        </span>
-      </h1>
-    </section>
+<link rel="stylesheet" href="css/about.css">
+<script src="js/about.js" defer></script>
 
-  </main>
+<section class="section-title con-min-width">
+  <h1 class="con">
+    <span>
+      <i class="fas fa-folder"></i>
+    </span>
+    <span>
+      DETAIL
+    </span>
+  </h1>
+</section>
 
-</div>
-</body>
-</html>
+<section class="section-article-detail con-min-width padding-0-10">
+  <div class="con">
+    <h1 class="article-list-box__title"><a href="article_detail_2.html">jQuery CSS Function</a></h1>
+
+    <div class="article-list-box__reg-date">2021-01-14 17:47:14</div>
+
+    <div class="article-list-box__writer">
+      <span>최소영</span>
+      <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+    </div>
+
+    <div class="article-list-box__body">
+      <script type="text/x-template"># 개요
+- jQuery 내에서 CSS 값을 취득하거나 설정하는 함수
+
+# 참고
+- .addClass() : class 추가
+- .removeClass() : class 제거
+- .css() : 스타일 속성값 설정
+
+# 사용방식
+
+```html
+
+<t-script>
+console.clear();
+
+$('button:nth-of-type(1)').click(function(){
+$('___').addClass('active');
+)};
+
+  
+$('button:nth-of-type(2)').click(function(){
+$('___').removeClass('active');
+});
+
+
+```
+</script>
+      <div class="toast-ui-viewer"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section-article-reply-box padding-0-10 con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://b.sherryisprecious.com/article_detail_3.html';
+            this.page.identifier = 'article_detail_3.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://blogsherry-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    </div>
 
 </main>
 
