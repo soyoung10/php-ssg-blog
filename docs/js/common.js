@@ -6,7 +6,8 @@ const $cursor = $('.cursor');
 const $cursorShadow = $('.cursor-shadow');
 
 $(window).mousemove(function(e) {
-
+  console.log("e.clientX : " + e.clientX);
+  console.log("e.clientY : " + e.clientY);
   
   $cursor.css({
     top:e.clientY,

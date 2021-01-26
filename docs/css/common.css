@@ -147,9 +147,8 @@ a{
 
 
 .cursor{
-  position: fixed;
+  position: relative;
   z-index: 100;
-  transition:width .1s, height .1s;
 }
 
 .cursor::before,
@@ -160,6 +159,7 @@ a{
   height: 40px;
   background-color: pink;
   border-radius: 100%;
+  transform:rotate(45deg);
   border-radius: 50px;
   transform: translatex(20%) translatey(-50%);
 }
