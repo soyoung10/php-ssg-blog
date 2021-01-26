@@ -156,8 +156,8 @@ a{
 .cursor::after{
   content:"";
   position:absolute;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: pink;
   border-radius: 100%;
   border-radius: 50px;
@@ -165,8 +165,8 @@ a{
 }
 
 .cursor::after{
-  width: 60px;
-  height: 20px;
+  width: 90px;
+  height: 30px;
   background-color: deeppink;
   opacity: .5;
   border-radius: 100%;
