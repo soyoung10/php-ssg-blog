@@ -4,6 +4,66 @@ require_once "app.php";
 
 $siteTitle = "Disign SheRRy";
 
+// 게시물 4
+$article3 = [];
+$article3["id"] = 4;
+$article3["title"] = "jQuery CLASS";
+$article3["regDate"] = "2021-01-14 18:22:16";
+$article3["writerName"] = "최소영";
+$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article3["tags"] = ["js", "jquery"];
+$article3["body"] = <<<'EOT'
+# HTML
+```html
+<t-script>
+  
+<button>회전</button>
+<button>리셋</button>
+
+<div class=""></div>
+</t-script>
+```
+
+# CSS
+```CSS
+div{
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  transition: all 1s;
+}
+
+.active{
+  background-color: lemonchiffon;
+  width: 500px;
+  height: 500px;
+  border-radius: 1000px;
+  transform: rotate(1000deg) scale (0.5);
+}
+```
+
+# JS
+```javascript
+
+console.clear();
+
+$('button:nth-of-type(1)').click(function(){
+  $('div').addClass('active');
+});
+
+$('button:nth-of-type(2)').click(function(){
+  $('div').removeClass('active');
+});
+
+```
+
+# 실습
+```codepen
+https://codepen.io/soyoung10/embed/gOwmGOo?height=300&theme-id=light&default-tab=js,result&editable=true
+
+```
+
+EOT;
 
 // 게시물 3
 $article3 = [];
