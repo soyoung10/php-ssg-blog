@@ -1,4 +1,7 @@
 <?php
+require_once "util.php";
+require_once "app.php";
+
 $siteTitle = "Disign SheRRy";
 
 
@@ -9,6 +12,7 @@ $article3["title"] = "jQuery CSS Function";
 $article3["regDate"] = "2021-01-14 17:47:14";
 $article3["writerName"] = "최소영";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article3["tags"] = ["jquery"];
 $article3["body"] = <<<'EOT'
 # 개요
 - jQuery 내에서 CSS 값을 취득하거나 설정하는 함수
@@ -47,6 +51,7 @@ $article2["title"] = "jQuery Apply";
 $article2["regDate"] = "2020-01-12 18:22:16";
 $article2["writerName"] = "최소영";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article2["tags"] = ["jquery"];
 $article2["body"] = <<<'EOT'
 # CSS
 ```CSS
@@ -90,6 +95,7 @@ $article1["title"] = "jQuery Outline";
 $article1["regDate"] = "2020-01-12 17:47:14";
 $article1["writerName"] = "최소영";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article1["tags"] = ["jquery"];
 $article1["body"] = <<<'EOT'
 # 개요
 - jQuery는 엘리먼트를 선택하여 선택된 엘리먼트들을 효율적으로 제어할 수 있는 자바스크립트 라이브러리
@@ -127,7 +133,26 @@ $___.eq(n).___('____', '___');
 ```
 EOT;
 
-if ( isset($articleId) ) {
-  $articleVarName = "article" . $articleId;
-  $selectedArticle = $$articleVarName;
+$maxArticleId = getMaxArticleId();
+$_allArticles = [];
+$_tags = [];
+for ( $i = $maxArticleId; $i > 0; $i-- ) {
+    $varName = 'article' . $i;
+    if ( isset($$varName) ) {
+        $_allArticles[${$varName}['id']] = &$$varName;
+        foreach ( $_allArticles[${$varName}['id']]['tags'] as $tag ) {
+            $_tags[] = $tag;
+        }
+    }
+}
+$_tags = array_unique($_tags);
+sort($_tags);
+$_allArticlesByTag = [];
+foreach ( $_tags as $tag ) {
+    $_allArticlesByTag[$tag] = [];
+    foreach ( $_allArticles as $article ) {
+        if ( in_array($tag, $article['tags']) ) {
+            $_allArticlesByTag[$tag][$article['id']] = $article;
+        }
+    }
 }
