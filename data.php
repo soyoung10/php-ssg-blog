@@ -5,14 +5,14 @@ require_once "app.php";
 $siteTitle = "Disign SheRRy";
 
 // 게시물 4
-$article3 = [];
-$article3["id"] = 4;
-$article3["title"] = "jQuery CLASS";
-$article3["regDate"] = "2021-01-14 18:22:16";
-$article3["writerName"] = "최소영";
-$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["tags"] = ["js", "jquery"];
-$article3["body"] = <<<'EOT'
+$article4 = [];
+$article4["id"] = 4;
+$article4["title"] = "jQuery CLASS";
+$article4["regDate"] = "2021-01-14 18:22:16";
+$article4["writerName"] = "최소영";
+$article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article4["tags"] = ["js", "jquery"];
+$article4["body"] = <<<'EOT'
 # HTML
 ```html
 <t-script>
