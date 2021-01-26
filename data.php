@@ -4,6 +4,121 @@ require_once "app.php";
 
 $siteTitle = "Disign SheRRy";
 
+// 게시물 10
+$article10 = [];
+$article10["id"] = 10;
+$article10["title"] = "JS 함수 typeof";
+$article10["regDate"] = "2021-01-27 01:46:16";
+$article10["writerName"] = "최소영";
+$article10["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article10["tags"] = ["js", "function"];
+$article10["body"] = <<<'EOT'
+
+# 정의
+
+- 변수의 데이터 타입을 반환하는 연산자
+
+# 참고
+
+- undefined : 변수가 정의되지 않거나 값이 없을 때
+- number : 데이터 타입이 수일 때
+- string : 데이터 타입이 문자열일 때
+- boolean : 데이터 타입이 불리언일 때
+- object : 데이터 타입이 함수, 배열 등 객체일 때
+- function : 변수의 값이 함수일 때
+- symbol : 데이터 타입이 심볼일 때
+
+# 사용방식
+
+```javascript
+
+console.clear();
+
+var __ = n;
+var typeOf__ = typeof(__);
+console.log(typeOf__);
+
+var __ = NN+nn;
+var typeOf__ = typeof(__);
+console.log(typeOf__);
+
+var __ = NN > n;
+var typeOf__ = typeof(__);
+console.log(typeOf__);
+
+var __ = "nn + nn";
+var typeOf__ = typeof(__);
+console.log(typeOf__);
+
+```
+# 실습
+
+```codepen
+https://codepen.io/soyoung10/embed/vYXBWmY?height=300&theme-id=light&default-tab=js,result&editable=true
+```
+
+EOT;
+
+
+// 게시물 9
+$article9 = [];
+$article9["id"] = 9;
+$article9["title"] = "JS 함수 반환";
+$article9["regDate"] = "2021-01-27 01:30:01";
+$article9["writerName"] = "최소영";
+$article9["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article9["tags"] = ["js", "function"];
+$article9["body"] = <<<'EOT'
+
+# 정의
+- 함수를 선언했을 때 함수 값을 반환
+
+# 사용방식
+```
+<t-script>
+
+
+/*함수 등록*/
+function plus(a, b){
+  return a + b;
+};
+
+var c = plus(100, 200);
+
+console.log(c);
+
+function minus(a, b){
+  var c = a - b;
+  return c;
+}
+
+console.log(minus(10, 20));
+console.log(-10);
+
+
+console.clear();
+
+function plus (a, b){
+  return a + b;
+}
+var c = plus(100, 200);
+console.log(c);
+
+c = plus(10, 20);
+console.log(c);
+
+function minus(a, b){
+  var c = a - b;
+  return c;
+}
+
+console.log(minus(10, 20));
+
+</t-script>
+```
+
+EOT;
+
 // 게시물 8
 $article8 = [];
 $article8["id"] = 8;
