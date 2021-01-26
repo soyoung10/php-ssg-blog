@@ -4,6 +4,143 @@ require_once "app.php";
 
 $siteTitle = "Disign SheRRy";
 
+
+// 게시물 6
+$article6 = [];
+$article6["id"] = 6;
+$article6["title"] = "DOM 바닐라 조작";
+$article6["regDate"] = "2021-01-26 18:02:16";
+$article6["writerName"] = "최소영";
+$article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article6["tags"] = ["js", "dom"];
+$article6["body"] = <<<'EOT'
+
+# HTML
+```html
+<t-script>
+  
+<header>
+  <div onclick="a1();">red</div>
+  <div onclick="a2();">orange</div>
+  <div onclick="a3();">yellow</div>
+  <div onclick="a4();">green</div>
+  <div onclick="a5();">blue</div>
+  <div onclick="a6();">navy</div>
+  <div onclick="a7();">purple</div>
+</header>
+<main>
+  <section class="1"></section>
+</main>
+<footer></footer>
+  
+</t-script>
+```
+
+# CSS
+```CSS
+header > div{
+  width: 130px;
+  height: 130px;
+  border: 3px solid;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+main{
+  padding-top: 10px;
+}
+
+main > section {
+  width: 980px;
+  height: 130px;
+  border: 3px solid white;
+  display: inline-block;
+}
+```
+
+# JS
+```javascript
+
+console.clear();
+
+function a1() {
+  var s = document.getElementsByTagName('section');  s[0].style.backgroundColor = 'red'; }
+a1();
+
+function a2(){
+  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'orange'; }
+a2();
+
+function a3(){
+  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'yellow'; }
+a3();
+
+function a4(){
+  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'green'; }
+a4();
+
+function a5(){
+  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'blue'; }
+a5();
+
+function a6(){
+  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'navy'; }
+a6();
+
+function a7(){
+  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'purple'; }
+a7();
+
+```
+
+# 실습
+```codepen
+https://codepen.io/soyoung10/embed/RwGNmPg?height=300&theme-id=light&default-tab=js,result&editable=true
+```
+
+EOT;
+
+// 게시물 5
+$article5 = [];
+$article5["id"] = 5;
+$article5["title"] = "DOM 바닐라";
+$article5["regDate"] = "2021-01-26 17:50:14";
+$article5["writerName"] = "최소영";
+$article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article5["tags"] = ["js", "dom"];
+$article5["body"] = <<<'EOT'
+
+# 개요
+- Java Script의 종류로, 브라우저를 통해 제공된다.
+
+# 참고
+- DOM(Document Object Model) : 문서객체모델
+
+# 사용방식
+
+```html
+
+<t-script>
+var ___s=  document.getElementsByTagName('___');
+
+
+function a() {
+  ___s[0].style.______ = '____';
+  ___s[1].style.______ = '____';
+  ___s[2].style.______ = '____';
+  ___s[3].style.______ = '____';
+}
+
+
+</t-script>
+```
+
+EOT;
+
+
 // 게시물 4
 $article4 = [];
 $article4["id"] = 4;
@@ -68,7 +205,7 @@ EOT;
 // 게시물 3
 $article3 = [];
 $article3["id"] = 3;
-$article3["title"] = "jQuery CSS Function";
+$article3["title"] = "jQuery CSS 함수";
 $article3["regDate"] = "2021-01-14 17:47:14";
 $article3["writerName"] = "최소영";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
@@ -107,7 +244,7 @@ EOT;
 // 게시물 2
 $article2 = [];
 $article2["id"] = 2;
-$article2["title"] = "jQuery Apply";
+$article2["title"] = "jQuery 활용";
 $article2["regDate"] = "2020-01-12 18:22:16";
 $article2["writerName"] = "최소영";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
@@ -151,7 +288,7 @@ EOT;
 
 $article1 = [];
 $article1["id"] = 1;
-$article1["title"] = "jQuery Outline";
+$article1["title"] = "jQuery 개요";
 $article1["regDate"] = "2020-01-12 17:47:14";
 $article1["writerName"] = "최소영";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
