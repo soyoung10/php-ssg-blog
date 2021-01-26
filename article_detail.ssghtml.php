@@ -8,6 +8,7 @@ require_once "head.php";
 
 $articleId = $_GET['id'];
 $selectedArticle = &getArticleById($articleId);
+$siteTitle .= " - " . $selectedArticle['title'];
 ?>
 
 <link rel="stylesheet" href="css/about.css">
