@@ -4,6 +4,99 @@ require_once "app.php";
 
 $siteTitle = "Disign SheRRy";
 
+// 게시물 8
+$article8 = [];
+$article8["id"] = 8;
+$article8["title"] = "JS 함수 매개변수";
+$article8["regDate"] = "2021-01-27 24:02:16";
+$article8["writerName"] = "최소영";
+$article8["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article8["tags"] = ["js", "function"];
+$article8["body"] = <<<'EOT'
+
+# 정의
+
+- 함수의 정의에서 전달받은 인수를 함수 내부로 전달하기 위해 사용하는 변수
+- 인수(argument)란 함수가 호출될 때 함수로 값을 전달해주는 값
+
+
+
+# 사용방식
+
+```javascript
+
+console.clear();
+
+function hello(mode){
+  var msg = "안녕하세요.";
+  
+  if(mode == "일본어"){
+  var msg = "곤니찌와";
+  }
+  
+  else if (mode == "영어"){
+    var msg = "헬로";
+  }
+  
+  console.log(msg);
+}
+
+hello("한국어");
+hello("일본어");
+hello("영어");
+
+
+```
+
+# 실습
+
+```codepen
+https://codepen.io/soyoung10/embed/LYRPWXy?height=300&theme-id=light&default-tab=js,result&editable=true
+```
+
+EOT;
+
+// 게시물 7
+$article7 = [];
+$article7["id"] = 7;
+$article7["title"] = "JS 함수";
+$article7["regDate"] = "2021-01-26 22:12:14";
+$article7["writerName"] = "최소영";
+$article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article7["tags"] = ["js", "function"];
+$article7["body"] = <<<'EOT'
+
+# 정의
+- JavaScript의 기본적인 구성 블록 중 하나로, 작업을 수행하거나 값을 계산하는 문장 집합이다.
+
+# 참고
+- 함수 선언(function declaration) : 지정된 매개변수(parameter)를 갖는 함수
+
+# 사용방식
+
+```
+
+<t-script>
+
+
+var _____ = function() {
+    console.log("____");
+    console.log("____");
+    console.log("____")
+    console.log("____");
+};
+
+____();
+
+
+</t-script>
+```
+# 실습
+```codepen
+https://codepen.io/soyoung10/embed/GRqVzGV?height=300&theme-id=light&default-tab=js,result&editable=true
+```
+
+EOT;
 
 // 게시물 6
 $article6 = [];
