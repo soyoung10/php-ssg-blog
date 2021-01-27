@@ -3,8 +3,8 @@
 <footer class="bottom-bar con-min-width">
   <div class="con flex jc-c">
     <a href="#" class="logo">
-      <span><i class="fas fa-palette"></i><i class="fas fa-paint-brush"></i></span>
-      <span>DESIGN SheRRy</span>
+      <span><i class="fas fa-lightbulb"></i></span>
+      <span>Design SheRRy</span>
     </a>
   </div>
 </footer>

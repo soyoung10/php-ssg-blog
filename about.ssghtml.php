@@ -1,5 +1,9 @@
 <?php
 require_once "data.php";
+
+$pageTitle = "{$siteTitle} - 디자이너 최소영은?";
+$pageDescription = "디자이너 최소영을 소개합니다.";
+
 require_once "head.php";
 ?>
 
@@ -22,4 +26,4 @@ require_once "head.php";
 
 <?php
 require_once "foot.php";
-?>
+?>`

@@ -3,6 +3,21 @@ require_once "util.php";
 require_once "app.php";
 
 $siteTitle = "Disign SheRRy";
+$siteDescription = "디자이너 최소영의 블로그입니다.";
+$siteKeywordsStr = "CSS, HTML, JS";
+$siteName = "DESIGN SheRRy";
+$siteThumbUrl = "https://soyoung10.github.io/web-page/img/design_sherry-2.jpg";
+
+// 태그정보
+$tagInfos = [
+    "js" => [
+        //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
+        //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
+    ],
+    "html" => [
+        //"pageThumbUrl" => "html 관련 글 전용 이미지"
+    ]
+];
 
 // 게시물 10
 $article10 = [];
