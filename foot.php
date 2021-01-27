@@ -3,8 +3,7 @@
 <footer class="bottom-bar con-min-width">
   <div class="con flex jc-c">
     <a href="#" class="logo">
-      <span><i class="fas fa-palette"></i><i class="fas fa-paint-brush"></i></span>
-      <span>DESIGN SheRRy</span>
+      <span><img src="https://soyoung10.github.io/web-page/img/logo.gif" class="logo-img" alt=""></span>
     </a>
   </div>
 </footer>

@@ -191,6 +191,13 @@ a{
 
 /*logo*/
 
+.logo-img{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: -70px;
+}
+
 .logo{
   display: flex;
   align-items: center;

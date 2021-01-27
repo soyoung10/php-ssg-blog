@@ -50,8 +50,7 @@
     <header class="top-bar con-min-width visible-md-up">
       <div class="con height-100p flex jc-sb">
         <a href="index.ssghtml.php" class="logo">
-          <span><i class="fas fa-palette"></i><i class="fas fa-paint-brush"></i></span>
-          <span><?=$siteTitle?></span>
+          <span><img src="https://soyoung10.github.io/web-page/img/logo.gif" class="logo-img" alt=""></span>
         </a>
         <nav class="top-bar__menu-box-1 height-100p">
           <ul class="flex height-100p">

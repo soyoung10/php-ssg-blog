@@ -162,9 +162,9 @@
 
 <section class="section-article-detail con-min-width padding-0-10">
   <div class="con">
-    <h1 class="article-list-box__title">DOM 바닐라 조작</h1>
+    <h1 class="article-list-box__title">JS 함수 반환</h1>
 
-    <div class="article-list-box__reg-date">2021-01-26 18:02:16</div>
+    <div class="article-list-box__reg-date">2021-01-27 01:30:01</div>
 
     <div class="article-list-box__writer">
       <span>최소영</span>
@@ -173,90 +173,51 @@
 
     <div class="article-list-box__body">
       <script type="text/x-template">
-# HTML
-```html
+# 정의
+- 함수를 선언했을 때 함수 값을 반환
+
+# 사용방식
+```
 <t-script>
-  
-<header>
-  <div onclick="a1();">red</div>
-  <div onclick="a2();">orange</div>
-  <div onclick="a3();">yellow</div>
-  <div onclick="a4();">green</div>
-  <div onclick="a5();">blue</div>
-  <div onclick="a6();">navy</div>
-  <div onclick="a7();">purple</div>
-</header>
-<main>
-  <section class="1"></section>
-</main>
-<footer></footer>
-  
-</t-script>
-```
 
-# CSS
-```CSS
-header > div{
-  width: 130px;
-  height: 130px;
-  border: 3px solid;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  text-transform: uppercase;
+
+/*함수 등록*/
+function plus(a, b){
+  return a + b;
+};
+
+var c = plus(100, 200);
+
+console.log(c);
+
+function minus(a, b){
+  var c = a - b;
+  return c;
 }
 
-main{
-  padding-top: 10px;
-}
+console.log(minus(10, 20));
+console.log(-10);
 
-main > section {
-  width: 980px;
-  height: 130px;
-  border: 3px solid white;
-  display: inline-block;
-}
-```
-
-# JS
-```javascript
 
 console.clear();
 
-function a1() {
-  var s = document.getElementsByTagName('section');  s[0].style.backgroundColor = 'red'; }
-a1();
+function plus (a, b){
+  return a + b;
+}
+var c = plus(100, 200);
+console.log(c);
 
-function a2(){
-  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'orange'; }
-a2();
+c = plus(10, 20);
+console.log(c);
 
-function a3(){
-  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'yellow'; }
-a3();
+function minus(a, b){
+  var c = a - b;
+  return c;
+}
 
-function a4(){
-  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'green'; }
-a4();
+console.log(minus(10, 20));
 
-function a5(){
-  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'blue'; }
-a5();
-
-function a6(){
-  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'navy'; }
-a6();
-
-function a7(){
-  var s =      document.getElementsByTagName('section');  s[0].style.backgroundColor = 'purple'; }
-a7();
-
-```
-
-# 실습
-```codepen
-https://codepen.io/soyoung10/embed/RwGNmPg?height=300&theme-id=light&default-tab=js,result&editable=true
+</t-script>
 ```
 </script>
       <div class="toast-ui-viewer"></div>
@@ -275,8 +236,8 @@ https://codepen.io/soyoung10/embed/RwGNmPg?height=300&theme-id=light&default-tab
 
     <script>
       var disqus_config = function () {
-        this.page.url = 'https://b.sherryisprecious.com/article_detail_6.html';
-        this.page.identifier = 'article_detail_6.html';
+        this.page.url = 'https://b.sherryisprecious.com/article_detail_9.html';
+        this.page.identifier = 'article_detail_9.html';
       };
       (function () { // DON'T EDIT BELOW THIS LINE
         var d = document,
