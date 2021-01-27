@@ -163,9 +163,9 @@
 
 <section class="section-article-detail con-min-width padding-0-10">
   <div class="con">
-    <h1 class="article-list-box__title">jQuery CLASS</h1>
+    <h1 class="article-list-box__title">JS 함수 반환</h1>
 
-    <div class="article-list-box__reg-date">2021-01-14 18:22:16</div>
+    <div class="article-list-box__reg-date">2021-01-27 01:30:01</div>
 
     <div class="article-list-box__writer">
       <span>최소영</span>
@@ -173,54 +173,52 @@
     </div>
 
     <div class="article-list-box__body">
-      <script type="text/x-template"># HTML
-```html
+      <script type="text/x-template">
+# 정의
+- 함수를 선언했을 때 함수 값을 반환
+
+# 사용방식
+```
 <t-script>
-  
-<button>회전</button>
-<button>리셋</button>
 
-<div class=""></div>
-</t-script>
-```
 
-# CSS
-```CSS
-div{
-  width: 200px;
-  height: 200px;
-  background-color: lightcoral;
-  transition: all 1s;
+/*함수 등록*/
+function plus(a, b){
+  return a + b;
+};
+
+var c = plus(100, 200);
+
+console.log(c);
+
+function minus(a, b){
+  var c = a - b;
+  return c;
 }
 
-.active{
-  background-color: lemonchiffon;
-  width: 500px;
-  height: 500px;
-  border-radius: 1000px;
-  transform: rotate(1000deg) scale (0.5);
-}
-```
+console.log(minus(10, 20));
+console.log(-10);
 
-# JS
-```javascript
 
 console.clear();
 
-$('button:nth-of-type(1)').click(function(){
-  $('div').addClass('active');
-});
+function plus (a, b){
+  return a + b;
+}
+var c = plus(100, 200);
+console.log(c);
 
-$('button:nth-of-type(2)').click(function(){
-  $('div').removeClass('active');
-});
+c = plus(10, 20);
+console.log(c);
 
-```
+function minus(a, b){
+  var c = a - b;
+  return c;
+}
 
-# 실습
-```codepen
-https://codepen.io/soyoung10/embed/gOwmGOo?height=300&theme-id=light&default-tab=js,result&editable=true
+console.log(minus(10, 20));
 
+</t-script>
 ```
 </script>
       <div class="toast-ui-viewer"></div>
@@ -239,8 +237,8 @@ https://codepen.io/soyoung10/embed/gOwmGOo?height=300&theme-id=light&default-tab
 
     <script>
       var disqus_config = function () {
-        this.page.url = 'https://b.sherryisprecious.com/article_detail_4.html';
-        this.page.identifier = 'article_detail_4.html';
+        this.page.url = 'https://b.sherryisprecious.com/article_detail_9.html';
+        this.page.identifier = 'article_detail_9.html';
       };
       (function () { // DON'T EDIT BELOW THIS LINE
         var d = document,
