@@ -2,10 +2,10 @@
 require_once "util.php";
 require_once "app.php";
 
-$siteTitle = "Disign SheRRy";
+$siteTitle = "Design SheRRy";
 $siteDescription = "디자이너 최소영의 블로그입니다.";
 $siteKeywordsStr = "js, jquery";
-$siteName = "DESIGN SheRRy";
+$siteName = "Design SheRRy";
 $siteThumbUrl = "https://soyoung10.github.io/web-page/img/design_sherry-2.jpg";
 
 // 태그정보
