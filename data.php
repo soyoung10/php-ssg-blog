@@ -8,13 +8,14 @@ $siteKeywordsStr = "js, jquery";
 $siteName = "Design SheRRy";
 $siteThumbUrl = "https://soyoung10.github.io/php-ssg-blog/img/logo/design_sherry.jpg";
 
+
 // 태그정보
 $tagInfos = [
     "js" => [
         "pageThumbUrl" => "https://soyoung10.github.io/php-ssg-blog/img/logo/design_sherry.jpg"
         //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
     ],
-    "html" => [
+    "jquery" => [
         //"pageThumbUrl" => "html 관련 글 전용 이미지"
     ]
 ];
