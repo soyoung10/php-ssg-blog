@@ -3,7 +3,8 @@
 <footer class="bottom-bar con-min-width">
   <div class="con flex jc-c">
     <a href="#" class="logo">
-      <span><img src="https://soyoung10.github.io/web-page/img/logo.gif" class="logo-img" alt=""></span>
+      <span><i class="fas fa-lightbulb"></i></span>
+      <span>Design SheRRy</span>
     </a>
   </div>
 </footer>
