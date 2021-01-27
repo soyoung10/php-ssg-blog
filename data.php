@@ -6,7 +6,7 @@ $siteTitle = "Design SheRRy";
 $siteDescription = "디자이너 최소영의 블로그입니다.";
 $siteKeywordsStr = "js, jquery";
 $siteName = "Design SheRRy";
-$siteThumbUrl = "https://soyoung10.github.io/web-page/img/design_sherry-2.jpg";
+$siteThumbUrl = "https://soyoung10.github.io/php-ssg-blog/img/logo/design_sherry.jpg";
 
 // 태그정보
 $tagInfos = [
