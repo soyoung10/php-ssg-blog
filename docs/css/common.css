@@ -121,7 +121,7 @@ a{
 
 @media ( max-width:720px ) {
   .visible-md-up {
-    display:none;
+    display:none !important;
   }
 }
 
