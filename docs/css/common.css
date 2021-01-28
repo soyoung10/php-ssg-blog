@@ -272,6 +272,7 @@ a{
   top:0;
   left:0;
   width:100%;
+  z-index: 9999;
 }
 
 :root {
@@ -284,7 +285,7 @@ a{
   position:relative;
   margin-left:10px;
   cursor:pointer;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .mobile-top-bar__btn-toggle-side-bar > div {
@@ -378,7 +379,7 @@ a{
   display:flex;
   align-items:center;
   padding-bottom:var(--mobile-top-bar__height);
-  z-index: 99;
+  z-index: 999;
 }
 
 .mobile-side-bar.active {
@@ -567,6 +568,7 @@ a{
   width: 0;
   height: 0;
   overflow: hidden;
+  z-index: 99;
 }
 
 .svgs > * {
