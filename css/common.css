@@ -154,7 +154,7 @@ a{
 
 .cursor{
   position: fixed;
-  z-index: 999;
+  z-index: 99999;
   transition:width .1s, height .1s;
 }
 
