@@ -129,9 +129,6 @@ a{
   .visible-sm-down {
     display: none !important;
   }
-  .top-bar__menu-box-1{
-    display: none !important;
-  }
 }
 
 
@@ -151,7 +148,7 @@ a{
 
 .cursor{
   position: fixed;
-  z-index: 99999;
+  z-index: 9999;
   transition:width .1s, height .1s;
 }
 
