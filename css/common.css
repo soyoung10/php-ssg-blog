@@ -133,7 +133,9 @@ a{
     display: none !important;
   }
   .top-bar__menu-box-1{
+    display: none !important.top-bar__menu-box-1{
     display: none;
+  };
   }
 }
 
