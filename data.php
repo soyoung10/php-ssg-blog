@@ -12,7 +12,7 @@ $siteThumbUrl = "https://b.sherryisprecious.com/img/logo/design_sherry-logo.png"
 // 태그정보
 $tagInfos = [
     "js" => [
-        "pageThumbUrl" => "https://b.sherryisprecious.com/img/logo/logo/design_sherry-logo-2.png",
+        "pageThumbUrl" => "https://b.sherryisprecious.com/img/logo/design_sherry-logo-2.png",
         //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
     ],
     "jquery" => [
