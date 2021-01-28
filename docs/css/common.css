@@ -129,6 +129,9 @@ a{
   .visible-sm-down {
     display: none !important;
   }
+  .top-bar__menu-box-1{
+    display: none !important;
+  }
 }
 
 
@@ -275,7 +278,7 @@ a{
   top:0;
   left:0;
   width:100%;
-  z-index: 9999;
+  z-index: 999;
 }
 
 :root {
