@@ -123,9 +123,6 @@ a{
   .visible-md-up {
     display: none !important;
   }
-  .top-bar__menu-box-1{
-    display: none;
-  }
 }
 
 @media ( min-width:721px ) {
