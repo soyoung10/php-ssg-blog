@@ -127,7 +127,7 @@ a{
 
 @media ( min-width:721px ) {
   .visible-sm-down {
-    display:none;
+    display:none !important;
   }
 }
 
@@ -379,7 +379,7 @@ a{
   display:flex;
   align-items:center;
   padding-bottom:var(--mobile-top-bar__height);
-  z-index: 999;
+  z-index: 9999;
 }
 
 .mobile-side-bar.active {
