@@ -2,6 +2,7 @@
 require_once "data.php";
 
 shell_exec("chcp 65001");
+
 $srcPath = __DIR__;
 $distPath = $srcPath . '/docs';
 $compileNo = 0;
@@ -15,7 +16,7 @@ function compile($originFile) {
 
         foreach ( $articles as $article ) {
             $originFileAndOpt = $originFile . " " . $article['id'];
-            
+
             $distFile = str_replace(".ssghtml.php", "_{$article['id']}.html", $originFile);
         
             compileItem($originFileAndOpt, $distFile);
@@ -26,9 +27,9 @@ function compile($originFile) {
 
         foreach ( $tags as $tag ) {
             $originFileAndOpt = $originFile . " " . $tag;
-            
+
             $distFile = str_replace(".ssghtml.php", "_{$tag}.html", $originFile);
-            
+
             compileItem($originFileAndOpt, $distFile);
         }
     }
@@ -51,24 +52,29 @@ function compileItem($originFileAndOpt, $distFile) {
     global $distPath;
 
     $distFile = str_replace($srcPath, $distPath, $distFile);
-    
+
     $distDirPath = dirname($distFile);
-    
+
     if ( is_dir($distDirPath) == false ) {
         mkdir($distDirPath, 0777, true);
     }
 
     $command = "c:\\xampp\\php\\php.exe {$originFileAndOpt} > {$distFile}";
-    
+
     shell_exec($command);
-    
+
     adaptForStatic($distFile);
-    
+
     echo "{$compileNo} : {$distFile} 생성됨\n";
     $compileNo++;
 }
 
 function adaptForStatic($distFileName) {
+
+    if ( strpos($distFileName, ".html") === false ) {
+        return;
+    }
+
     $newSource = file_get_contents($distFileName);
     $newSource = str_replace(["&ext=html", "article_detail.ssghtml.php?id=", "article_list_by_tag.ssghtml.php?tag=", ".ssghtml.php"], [".html", "article_detail_", "article_list_by_tag_", ".html"], $newSource);
     file_put_contents($distFileName, $newSource);
