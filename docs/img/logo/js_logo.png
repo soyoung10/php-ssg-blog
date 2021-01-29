@@ -1,0 +1,4 @@
+
+Warning: Unexpected character in input:  '' (ASCII=5) state=0 in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\img\logo\js_logo.png on line 17
+
+Parse error: syntax error, unexpected 'hó' (T_STRING) in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\img\logo\js_logo.png on line 17
