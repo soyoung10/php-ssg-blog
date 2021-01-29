@@ -12,11 +12,12 @@ $siteThumbUrl = "https://b.sherryisprecious.com/img/logo/design_sherry-logo.png"
 // 태그정보
 $tagInfos = [
     "js" => [
-        "pageThumbUrl" => "https://b.sherryisprecious.com/img/logo/design_sherry-logo-2.png",
+        "pageThumbUrl" => "https://b.sherryisprecious.com/img/logo/js_logo.png.png",
         "pageDescription" => "자바스크립트(JavaScript)"
     ],
     "jquery" => [
-        //"pageThumbUrl" => "html 관련 글 전용 이미지"
+        "pageThumbUrl" => "https://b.sherryisprecious.com/img/logo/jquery_logo.png",
+        "pageDescription" => "제이쿼리(Jquery)"
     ]
 ];
 
