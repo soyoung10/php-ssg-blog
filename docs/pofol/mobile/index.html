@@ -1,7 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-680JQ7V954"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-680JQ7V954');
+</script>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +20,11 @@
   <link rel="stylesheet" href="index.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="index.js" defer></script>
+  <script>
+    // 주소 뒤에 / 를 붙여주는 코드
+    // 오직 index.html 에만 넣어주세요.
+    if ( location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+  </script>
 </head>
 <body>
   <img src="https://cdn.jsdelivr.net/gh/soyoung10/php-ssg-blog/pofol/mobile/img/ui-1.jpg" alt="">
