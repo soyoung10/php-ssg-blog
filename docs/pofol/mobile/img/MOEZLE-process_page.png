@@ -1,0 +1,6 @@
+
+Warning: Unexpected character in input:  '' (ASCII=26) state=0 in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\pofol\mobile\img\MOEZLE-process_page.png on line 270
+
+Warning: Unexpected character in input:  '' (ASCII=14) state=0 in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\pofol\mobile\img\MOEZLE-process_page.png on line 270
+
+Parse error: syntax error, unexpected 'æUˆó„ç' (T_STRING) in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\pofol\mobile\img\MOEZLE-process_page.png on line 270
