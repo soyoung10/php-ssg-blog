@@ -11,7 +11,6 @@ require_once "head.php";
     <span><i class="fas fa-paste"></i></span>
     <span>PORTFOLIO</span>
   </h1>
-</section>
 
 <?php
 require_once "foot.php";
