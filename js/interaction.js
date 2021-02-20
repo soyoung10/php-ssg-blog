@@ -158,7 +158,7 @@ gsap.from(".section09 > .mockup09", {
     markers: true,
     start: "top 20%",
     end: "bottom center",
-    scrub: true2
+    scrub: true
   }
 });
 
