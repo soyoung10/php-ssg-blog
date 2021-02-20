@@ -1,0 +1,196 @@
+html{
+  background-color: #f9f9f9;
+}
+
+body, ul, li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root{
+  --site-width: 1915px;
+}
+/*scroll*/
+
+::-webkit-scrollbar-track
+{
+  background-color: #f9f9f9;
+}
+
+
+::-webkit-scrollbar
+{
+  width: 5px;
+  height: 4px;
+  background-color: #f9f9f9;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-image: linear-gradient(135deg, #b721ff 0%, #21d4fd 100%);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section > img{
+  display: block;
+}
+
+/*prolog*/
+
+section > .bg01{
+  width: var(--site-width);
+}
+
+section > .mockup01 {
+  width: 344px;
+  position: absolute;
+  margin-top: 25%;
+  left: 42%;
+}
+
+/*wireframe*/
+
+section > .mockup03{
+  height:347px;
+  position: absolute;
+  margin-top: 15%;
+}
+
+/*welcome*/
+
+section > .mockup04{
+  width: 344px;
+  position: absolute;
+}
+
+section > .mockup04-a{
+  margin-top: 15%;
+  left: 10%;
+}
+
+section > .mockup04-b{
+  margin-top: 20%;
+  left: 30%;
+}
+
+
+/*main*/
+
+section > .mockup05{
+  width: 344px;
+  position: absolute;
+}
+
+section > .mockup05-a{
+  left: 20%;
+  height: 1359px;
+}
+
+section > .mockup05-b{
+  margin-top: 5%;
+  left: 40%;
+  height: 1175px;
+}
+
+section > .mockup05-c{
+   margin-top: 15%;
+  left: 60%;
+  height: 1175px;
+}
+
+
+
+/*detail*/
+
+section > .mockup06{
+  position: absolute;
+}
+
+section > .mockup06-a{
+  margin-top: 10%;
+  right: 30%;
+}
+
+section > .mockup06-b{
+  margin-top: 50%;
+  right: 30%;
+}
+
+section > .mockup06-c{
+  margin-top: 30%;
+  right: 10%;
+}
+
+section > .mockup06-d{
+  margin-top: 95%;
+  left: 10%;
+}
+
+section > .mockup06-e{
+  margin-top: 120%;
+  left: 30%;
+}
+
+/*text*/
+
+section > .text{
+  position: absolute;
+  width: 430px;
+  box-shadow: 3px 3px 10px #afafaf;
+  border-radius: 3%;
+}
+
+/*search*/
+
+section > .text07{
+  margin-top: 53%;
+  margin-left: 2%;
+}
+
+/*notice*/
+
+section > .text08-a{
+  margin-top: 30%;
+  left: 10%;
+}
+
+section > .text08-b{
+  margin-top: 80%;
+  right: 10%;
+}
+
+
+/*mypage*/
+
+section > .mockup09{
+  width: 344px;
+  position: absolute;
+}
+
+section > .mockup09-a{
+  margin-top: 85%;
+  left: 30%;
+}
+
+section > .mockup09-b{
+  margin-top: 85%;
+  right: 30%;
+}
+
+/*epilogue*/
+
+.section10 > .bg10{
+  width: var(--site-width);
+}
+
+section > .text10{
+  width: 250px;
+  position: absolute;
+  margin-top: 120%;
+  left: 15%;
+}
