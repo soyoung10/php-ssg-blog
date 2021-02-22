@@ -4,7 +4,6 @@ gsap.from(".section01 > .mockup01", {
   duration: 4,
   scrollTrigger: {
     trigger: ".mockup01",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
@@ -16,7 +15,6 @@ gsap.from(".section03 > .mockup03", {
   duration: 6,
   scrollTrigger: {
     trigger: ".mockup03",
-    markers: true,
     start: "top bottom",
     end: "bottom center",
     scrub: true
@@ -27,7 +25,6 @@ gsap.from(".section03 > .mockup03", {
 const Timeline__Section4__1 = gsap.timeline({
   scrollTrigger: {
     trigger: '.section04',
-    markers:true,
     start:'top 70%',
     end:'bottom top',
     toggleActions: "restart none none none"
@@ -53,7 +50,6 @@ gsap.from(".section05 > .mockup05-a", {
   duration: 1,
   scrollTrigger: {
     trigger: ".mockup05-a",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
@@ -65,7 +61,6 @@ gsap.from(".section05 > .mockup05-b", {
   duration: 2,
   scrollTrigger: {
     trigger: ".mockup05-b",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
@@ -77,7 +72,6 @@ gsap.from(".section05 > .mockup05-c", {
   duration: 3,
   scrollTrigger: {
     trigger: ".mockup05-c",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
@@ -90,7 +84,6 @@ gsap.from(".section06 > .mockup06-1", {
   duration: 3,
   scrollTrigger: {
     trigger: ".mockup06-1",
-    markers: true,
     start: "10% bottom",
     end: "80% center",
     scrub: true
@@ -103,7 +96,6 @@ gsap.from(".section06 > .mockup06-2", {
   duration: 3,
   scrollTrigger: {
     trigger: ".mockup06-2",
-    markers: true,
     start: "10% bottom",
     end: "80% center",
     scrub: true
@@ -117,7 +109,6 @@ gsap.from(".section07 > .text07", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text07",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
@@ -130,7 +121,6 @@ gsap.from(".section08 > .text08-a", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text08-a",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
@@ -142,7 +132,6 @@ gsap.from(".section08 > .text08-b", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text08-b",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
@@ -155,7 +144,6 @@ gsap.from(".section09 > .mockup09", {
   duration: 6,
   scrollTrigger: {
     trigger: ".mockup09",
-    markers: true,
     start: "top 20%",
     end: "bottom center",
     scrub: true
@@ -169,7 +157,6 @@ gsap.from(".section10 > .text10", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text10",
-    markers: true,
     start: "50% bottom",
     toggleActions: "restart none none none"
   }
