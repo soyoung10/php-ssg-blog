@@ -194,8 +194,12 @@ font-size: .9rem;
 font-weight: bold;
 }
 
-.brand__remark > span > p > img {
+.brand__remark > span:nth-child(2) > p:nth-child(2) > img {
 width: 45px;
+}
+
+.app{
+  width: 40px;
 }
 
 /*design*/
