@@ -4,7 +4,9 @@ gsap.from(".section01 > .mockup01", {
   duration: 4,
   scrollTrigger: {
     trigger: ".mockup01",
-    start: "50% bottom",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
@@ -15,7 +17,8 @@ gsap.from(".section03 > .mockup03", {
   duration: 6,
   scrollTrigger: {
     trigger: ".mockup03",
-    start: "top bottom",
+    markers: true,
+    start: "top 75%",
     end: "bottom center",
     scrub: true
   }
@@ -25,8 +28,9 @@ gsap.from(".section03 > .mockup03", {
 const Timeline__Section4__1 = gsap.timeline({
   scrollTrigger: {
     trigger: '.section04',
-    start:'top 70%',
-    end:'bottom top',
+    markers:true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
@@ -50,7 +54,9 @@ gsap.from(".section05 > .mockup05-a", {
   duration: 1,
   scrollTrigger: {
     trigger: ".mockup05-a",
-    start: "50% bottom",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
@@ -61,7 +67,9 @@ gsap.from(".section05 > .mockup05-b", {
   duration: 2,
   scrollTrigger: {
     trigger: ".mockup05-b",
-    start: "50% bottom",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
@@ -72,7 +80,9 @@ gsap.from(".section05 > .mockup05-c", {
   duration: 3,
   scrollTrigger: {
     trigger: ".mockup05-c",
-    start: "50% bottom",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
@@ -84,8 +94,9 @@ gsap.from(".section06 > .mockup06-1", {
   duration: 3,
   scrollTrigger: {
     trigger: ".mockup06-1",
-    start: "10% bottom",
-    end: "80% center",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     scrub: true
   }
 });
@@ -96,8 +107,9 @@ gsap.from(".section06 > .mockup06-2", {
   duration: 3,
   scrollTrigger: {
     trigger: ".mockup06-2",
-    start: "10% bottom",
-    end: "80% center",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     scrub: true
   }
 });
@@ -109,7 +121,9 @@ gsap.from(".section07 > .text07", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text07",
-    start: "50% bottom",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
@@ -121,7 +135,9 @@ gsap.from(".section08 > .text08-a", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text08-a",
-    start: "50% bottom",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
@@ -132,19 +148,22 @@ gsap.from(".section08 > .text08-b", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text08-b",
-    start: "50% bottom",
+    markers: true,
+    start: "top 75%",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });
 
 
 gsap.from(".section09 > .mockup09", {
-  y: -200,
+  y: -300,
   opacity: 0,
   duration: 6,
   scrollTrigger: {
     trigger: ".mockup09",
-    start: "top 20%",
+    markers: true,
+    start: "center 75%",
     end: "bottom center",
     scrub: true
   }
@@ -157,7 +176,9 @@ gsap.from(".section10 > .text10", {
   duration: 3,
   scrollTrigger: {
     trigger: ".text10",
-    start: "50% bottom",
+    markers: true,
+    start: "top bottom",
+    end: "bottom center",
     toggleActions: "restart none none none"
   }
 });

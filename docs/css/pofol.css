@@ -198,8 +198,9 @@ font-weight: bold;
 width: 45px;
 }
 
-.app{
-  width: 40px;
+.brand__remark > span > p > .app{
+  width: 20px;
+  height: 20px;
 }
 
 /*design*/
