@@ -15,7 +15,7 @@ require_once "head.php";
 </section>
 
 <section class="section-main con-min-width">
-  <link rel="stylesheet" href="https://b.sherryisprecious.com/pofol/process/interaction.html">
+  <a href="https://b.sherryisprecious.com/pofol/process/interaction.html">PortFolio01</a>
 </section>
 
 <?php
