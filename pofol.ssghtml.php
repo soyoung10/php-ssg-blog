@@ -31,7 +31,7 @@ require_once "head.php";
     <li>
       <span></span>
       <div class="title">Mobile App UI/UX</div>
-      <div class="info">ũ���� �ݵ� �÷��� 'MOEZLE'</div>
+      <div class="info">크라우드 펀딩 플랫폼 'MOEZLE'</div>
       <div class="link"><a href="https://b.sherryisprecious.com/pofol/process/interaction.html">link >></a></div>
       <div class="time">
         <span>Fub,22<sup>th</sup></span>
