@@ -3,8 +3,6 @@ require_once "data.php";
 require_once "head.php";
 ?>
 
-<link rel="stylesheet" href="/css/pofol.css">
-<script src="js/pofol.js" defer></script>
 
 <link rel="stylesheet" href="css/common.css">
 <script src="js/common.js"></script>
