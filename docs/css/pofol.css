@@ -1,0 +1,111 @@
+body, ul, li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #505285;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-box{
+  margin: 0 15%;
+  height: 650px;
+  overflow: hidden;
+  padding: 50px 0 60px 60px;
+
+}
+
+.section-box > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+}
+
+.section-box > ul:before{
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border: .5px dashed #fbc8d4;
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+
+.section-box > ul li {
+  margin: 30px 60px 95px;
+  position: relative;
+  padding: 30px 50px;
+  background-image: linear-gradient(to right, #9795f0, #fbc8d4);
+  color: white;
+  border-radius: 20px;
+  line-height: 10px;
+  width: 40%;
+  box-shadow: 4px 3px 7px #e9defa;
+}
+
+.section-box > ul li > span{
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  border: 1px solid #9795f0;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+.section-box ul li > span:before /*, .section-box ul li > span:after*/{
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #fbc8d4;
+  border-radius: 100%;
+  position: absolute;
+  left: -8px;
+}
+
+.section-box ul li > span:before{
+  top: -10px;
+}
+
+/*
+.section-box ul li > span:after{
+  top: -90%;
+}
+*/
+
+.section-box .title{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-box .info:first-letter{
+  text-transform: capitalize;
+  line-height: 1.5;
+}
+
+.section-box .link{
+  margin-top: 25px;
+  text-transform: capitalize;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.section-box .time span{
+  position: absolute;
+  left: -100px;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.section-box .time span:first-child{
+  top: -12px;
+}

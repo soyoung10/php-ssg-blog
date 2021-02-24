@@ -194,6 +194,27 @@ a{
 }
 
 
+/*scroll*/
+
+::-webkit-scrollbar-track
+{
+  background-color: white;
+}
+
+
+::-webkit-scrollbar
+{
+  width: 5px;
+  height: 4px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+
 /*body-content*/
 
 .body-content{
