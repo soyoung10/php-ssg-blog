@@ -68,6 +68,7 @@ a{
   border-radius: 100%;
   position: absolute;
   left: -8px;
+  z-index: 9;
 }
 
 .section-box ul li > span:before{
