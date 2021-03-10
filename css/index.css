@@ -1,26 +1,26 @@
 @font-face {
-    font-family: 'InfinitySans-RegularA1';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'InfinitySans-RegularA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'InfinitySans-BoldA1';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'InfinitySans-BoldA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'InfinitySans-CondBoldA1';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-CondBoldA1.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'InfinitySans-CondBoldA1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-CondBoldA1.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
-html{
+html {
   font-family: 'InfinitySans-RegularA1', 'InfinitySans-BoldA1', 'InfinitySans-CondBoldA1', 'Noto Sans KR', sans-serif;
   overflow-x: hidden;
   background-image: linear-gradient(to top, #dfe9f3, white);
@@ -59,7 +59,7 @@ a {
 
 /*intro-page*/
 
-.wrapper{
+.wrapper {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -67,7 +67,7 @@ a {
   font-size: 21px;
 }
 
-.intro-page{
+.intro-page {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   z-index: 999;
   overflowY: hidden;
@@ -78,7 +78,7 @@ a {
   left: 0;
 }
 
-.intro-wrap{
+.intro-wrap {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -113,56 +113,68 @@ a {
 }
 
 
-.content-hidden .intro-text li, .content-hidden .click-button{opacity: 0;}
-.content-hidden .intro-text:nth-child(1) { transform: translate(-60px, 0, 0); }
-.content-hidden .intro-text li:nth-child(2) { transform: translate(-30px, 0, 0); }
-.content-hidden .click-button{ transform: translate(0, -30px, 0); }
+.content-hidden .intro-text li,
+.content-hidden .click-button {
+  opacity: 0;
+}
+
+.content-hidden .intro-text:nth-child(1) {
+  transform: translate(-60px, 0, 0);
+}
+
+.content-hidden .intro-text li:nth-child(2) {
+  transform: translate(-30px, 0, 0);
+}
+
+.content-hidden .click-button {
+  transform: translate(0, -30px, 0);
+}
 
 
 /*menu*/
 
-.sign-log{
+.sign-log {
   position: absolute;
   z-index: 99;
   top: 5%;
 }
 
-.sign-log > ul {
+.sign-log>ul {
   display: flex;
   justify-content: flex-end;
 }
 
-.sign-log > ul > li {
+.sign-log>ul>li {
   margin-right: 5%;
   margin-left: -2%;
 }
 
-.sign-log > ul > li > a{
+.sign-log>ul>li>a {
   color: lightgoldenrodyellow;
   font-size: .8rem;
 }
 
-.dream-menu{
+.dream-menu {
   display: flex;
   justify-content: space-between;
   position: absolute;
 }
 
 
-.dream-menu > ul{
+.dream-menu>ul {
   padding: 0 30px;
   display: flex;
   align-items: center;
   justify-content: right;
 }
 
-.dream-menu > img{
+.dream-menu>img {
   width: 300px;
   margin-left: 7%;
   margin-top: 2%;
 }
 
-.dream-menu > ul > li {
+.dream-menu>ul>li {
   display: flex;
   justify-content: center;
   margin-right: 0;
@@ -170,7 +182,7 @@ a {
   margin-top: 3%;
 }
 
-.dream-menu > ul > li > a{
+.dream-menu>ul>li>a {
   display: block;
   color: lightgoldenrodyellow;
   text-align: center;
@@ -179,16 +191,16 @@ a {
   padding: 20px;
 }
 
-.dream-menu > ul > li:hover > a{
+.dream-menu>ul>li:hover>a {
   color: gold;
 }
 
 
-.section-1 > .dream-banner{
+.section-1>.dream-banner {
   z-index: -999;
 }
 
-.dream-banner > img {
+.dream-banner>img {
   width: var(--site-width);
   height: 100%;
 }
@@ -196,7 +208,7 @@ a {
 
 /*section-2*/
 
-.section-2{
+.section-2 {
   top: 45%;
   font-family: 'InfinitySans-RegularA1';
 }
@@ -206,7 +218,7 @@ a {
 }
 
 
-.dream-2021-slider .items > div {
+.dream-2021-slider .items>div {
   top: 0;
   left: 0;
   width: 100%;
@@ -214,23 +226,24 @@ a {
   position: relative;
 }
 
-.items-wrap{
+.items-wrap {
   width: var(--site-width);
   height: 920px;
   position: relative;
 }
 
-.items-wrap > .items {
+.items-wrap>.items {
   padding: 3%;
 }
 
-.line{
+.line {
   width: 200px;
   height: 7px;
   background-color: gold;
 }
 
-.title, .intro{
+.title,
+.intro {
   padding: 0 100px;
 }
 
@@ -238,38 +251,38 @@ a {
   font-size: 1.5rem;
 }
 
-.intro{
+.intro {
   font-size: 1.2rem;
   font-family: 'Noto Sans KR';
 }
 
-.items-wrap .items > div > .main{
+.items-wrap .items>div>.main {
   display: flex;
   justify-content: space-around;
   padding: 7%;
 }
 
-.main > .dream-tem{
+.main>.dream-tem {
   width: 230px;
   height: 400px;
   box-shadow: 3px 3px 10px gray;
 }
 
-.main > .dream-tem > img{
+.main>.dream-tem>img {
   width: 230px;
 }
 
 /*section-3*/
 
 
-.section-3{
+.section-3 {
   position: relative;
   font-family: 'InfinitySans-RegularA1';
   margin-top: 185%;
-  }
+}
 
 
-.section-3 > .con > .reserve {
+.section-3>.con>.reserve {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -277,14 +290,14 @@ a {
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
-.reserve > .content {
+.reserve>.content {
   color: whitesmoke;
   font-size: 1.1rem;
   padding: 20px 70px;
 }
 
 
-.reserve > a > .link {
+.reserve>a>.link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,31 +312,31 @@ a {
 /*section-4*/
 
 
-.section-4{
+.section-4 {
   position: relative;
   margin-top: 9%;
 }
 
 
-.notice{
+.notice {
   display: flex;
   justify-content: space-between;
   margin-left: 2%;
   margin-right: 2%;
 }
 
-.more{
+.more {
   display: flex;
   align-items: flex-end;
   margin-bottom: 15px;
   margin-right: 20px;
 }
 
-.notice-list > ul{
+.notice-list>ul {
   padding: 20px;
 }
 
-.notice-list > ul > a{
+.notice-list>ul>a {
   display: flex;
   justify-content: space-between;
   margin-left: 5%;
@@ -334,12 +347,12 @@ a {
 
 /*section-5*/
 
-.section-5{
+.section-5 {
   position: relative;
   top: 200px;
 }
 
-.section-5 > div{
+.section-5>div {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -354,35 +367,35 @@ a {
   align-items: center;
 }
 
-.logo > a > img{
+.logo>a>img {
   width: 210px;
 }
 
-.made{
+.made {
   width: 65%;
   padding: 3%;
 }
 
-.made > div > span{
+.made>div>span {
   display: flex;
   justify-content: space-around;
   font-family: 'Noto Sans KR';
   color: whitesmoke;
 }
 
-.sns > div{
+.sns>div {
   display: flex;
   align-items: center;
   margin-right: 30px;
 }
 
-.sns > div > a > img{
+.sns>div>a>img {
   width: 35px;
   padding: 6px;
 }
 
-.sns > div > a > img:first-child,
-.sns > div > a > img:last-child {
+.sns>div>a>img:first-child,
+.sns>div>a>img:last-child {
   border-radius: 15px;
 }
 
@@ -390,6 +403,7 @@ a {
 ::-webkit-scrollbar-track {
   background-image: linear-gradient(to bottom, #09203f 0%, #537895 100%);
 }
+
 ::-webkit-scrollbar {
   width: 4px;
   height: 4px;
