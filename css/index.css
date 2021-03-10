@@ -124,7 +124,7 @@ a {
 .sign-log{
   position: absolute;
   z-index: 99;
-  top: 2%;
+  top: 5%;
 }
 
 .sign-log > ul {
@@ -159,7 +159,7 @@ a {
 .dream-menu > img{
   width: 300px;
   margin-left: 7%;
-  margin-top: -1%;
+  margin-top: 2%;
 }
 
 .dream-menu > ul > li {
@@ -167,6 +167,7 @@ a {
   justify-content: center;
   margin-right: 0;
   width: 150px;
+  margin-top: 3%;
 }
 
 .dream-menu > ul > li > a{
@@ -183,37 +184,13 @@ a {
 }
 
 
-.section-1 > .swiper-container{
+.section-1 > .dream-banner{
   z-index: -999;
 }
 
-.swiper-container {
+.dream-banner > img {
   width: var(--site-width);
   height: 100%;
-}
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-.swiper-slide > img{
-  width: var(--site-width);
 }
 
 
