@@ -26,37 +26,45 @@ require_once "head.php";
   </h1>
 </section>
 
-<section class="section-box">
-  <ul>
-    <li>
-      <span></span>
-      <div class="title">Mobile App UI/UX</div>
-      <div class="info">크라우드 펀딩 플랫폼 'MOEZLE'</div>
-      <div class="link"><a href="https://b.sherryisprecious.com/pofol/process/interaction.html">link >></a></div>
-      <div class="time">
-        <span>Fub,22<sup>th</sup></span>
-        <span></span>
+<section class="pofol-section con-min-width">
+  <div class="con">
+    <div class="portfolio">
+      <div class="work01">
+        <div class="banner">
+          <img src="https://soyoung10.github.io/web-res/ux/Untitled-7.jpg" alt="">
+        </div>
+        <div class="work-text">
+          <div class="title">
+            <span>MOBILE APP UI/UX</span>
+            <div class="underline"></div>
+            <h1>크라우드 펀딩 플랫폼 'MOEZLE'</h1> 
+          </div>
+          <div class="link-box">
+            <div class="link">
+              <a href="https://b.sherryisprecious.com/pofol/process/interaction.html">MOEZLE</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </li>
-    <li>
-      <span></span>
-      <div class="title">TITLE</div>
-      <div class="info">INFOMATION</div>
-      <div class="link">LINK>></div>
-      <div class="time">
-        <span>MONTH,DAY<sup>th</sup></span>
+      <div class="work02">
+        <div class="banner">
+          <img src="https://soyoung10.github.io/web-res/sherry/loading.jpg" alt="">
+        </div>
+        <div class="work-text">
+          <div class="title">
+            <span>category</span>
+            <div class="underline"></div>
+            <h1>title</h1>
+          </div>
+          <div class="link-box">
+            <div class="link">
+              <a href="#">link</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </li>
-    <li>
-      <span></span>
-      <div class="title">TITLE</div>
-      <div class="info">INFOMATION</div>
-      <div class="link">LINK>></div>
-      <div class="time">
-        <span>MONTH,DAY<sup>th</sup></span>
-      </div>
-    </li>
-  </ul>
+    </div>
+  </div>
 </section>
 
 <?php
