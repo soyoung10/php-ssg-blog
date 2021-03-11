@@ -43,6 +43,9 @@ require_once "head.php";
             <div class="link">
               <a href="https://b.sherryisprecious.com/pofol/process/interaction.html">MOEZLE</a>
             </div>
+            <div class="link">
+              <a href="https://b.sherryisprecious.com/pofol/process/pofol.html">MOEZLE (coding ver.)</a>
+            </div>
           </div>
         </div>
       </div>
