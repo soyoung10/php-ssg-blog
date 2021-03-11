@@ -31,7 +31,7 @@ require_once "head.php";
     <div class="portfolio">
       <div class="work01">
         <div class="banner">
-          <img src="https://soyoung10.github.io/web-res/ux/Untitled-7.jpg" alt="">
+          <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/ux/Untitled-7.jpg" alt="">
         </div>
         <div class="work-text">
           <div class="title">
@@ -51,7 +51,7 @@ require_once "head.php";
       </div>
       <div class="work02">
         <div class="banner">
-          <img src="https://soyoung10.github.io/web-res/sherry/loading.jpg" alt="">
+          <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/sherry/loading.jpg" alt="">
         </div>
         <div class="work-text">
           <div class="title">
