@@ -194,6 +194,10 @@ h2{
   width: 45px;
 }
 
+.brand__remark > span > img{
+    width: 50px;
+}
+
 /*design*/
 
 .section-2{
