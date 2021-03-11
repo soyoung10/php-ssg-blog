@@ -2,7 +2,7 @@
 
 window.onload = function() {
   this.setTimeout (function (){
-    scrollTo(0, 0);
+    scrollTop(0, 0);
   }, 100);
 }
 
