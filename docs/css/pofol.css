@@ -1,47 +1,42 @@
-.pofol-section{
-  border: 2px solid red;
+.pofol-section {
+  padding: 1px;
 }
 
 .portfolio {
   display: flex;
-  border: 2px solid green;
 }
 
 .portfolio > div {
   margin: 5%;
-  border: 2px solid blue;
+  padding: 5px;
 }
 
 .portfolio > div > .banner > img{
   width: 480px;
   border-radius: 10px;
-  border: 2px solid gold;
 }
 
 .work-text{
-  border: 2px solid deeppink;
+  padding: 1px;
 }
 
 .work-text > div {
   display: flex;
   justify-content: center;
-  border: 2px solid lightseagreen;
 }
 
 .work-text > div:first-child {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  background-color: lightyellow;
 }
 
 .work-text > div:first-child > span{
-  border: 2px solid red;
+  padding: 0 1px;
 }
 
 .work-text > div:first-child > h1{
   text-align: center;
-  border: 2px solid red;
 }
 
 .underline {
@@ -55,7 +50,7 @@
 }
 
 .work-text > div:last-child > div {
-  border: 2px solid orange;
+  margin: 1px;
 }
 
 .work-text > div:last-child > div > a{
@@ -65,5 +60,5 @@
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  border: 2px solid lightgreen;
+  border: 5px solid #89A2ED;
 }
