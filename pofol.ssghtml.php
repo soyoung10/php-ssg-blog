@@ -64,7 +64,7 @@ require_once "head.php";
               <a href="#">LINK</a>
             </div>
             <div class="link">
-              <a href="https://b.sherryisprecious.com/pofol/web/index.html">달러구트 꿈백화점 (coding ver.)</a>
+              <a href="https://b.sherryisprecious.com/pofol/web/index.html">달러구트 꿈백화점<br>(coding ver.)</a>
             </div>
           </div>
         </div>
