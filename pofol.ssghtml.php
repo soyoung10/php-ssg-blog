@@ -55,13 +55,16 @@ require_once "head.php";
         </div>
         <div class="work-text">
           <div class="title">
-            <span>category</span>
+            <span>WEBSITE UI/UX</span>
             <div class="underline"></div>
-            <h1>title</h1>
+            <h1>주문하신 꿈은 매진입니다, 달러구트 꿈백화점</h1>
           </div>
           <div class="link-box">
             <div class="link">
-              <a href="#">link</a>
+              <a href="#">LINK</a>
+            </div>
+            <div class="link">
+              <a href="https://b.sherryisprecious.com/pofol/web/index.html">달러구트 꿈백화점 (coding ver.)</a>
             </div>
           </div>
         </div>
