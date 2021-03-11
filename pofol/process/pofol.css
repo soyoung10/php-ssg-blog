@@ -194,8 +194,9 @@ h2{
   width: 45px;
 }
 
-.brand__remark > span > img{
+.app{
     width: 60px;
+    border: 2px solid royalblue;
 }
 
 /*design*/
