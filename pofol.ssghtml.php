@@ -8,14 +8,14 @@ require_once "head.php";
 
 <head>
 
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-<link rel="stylesheet" href="css/pofol.css">
-<script src="js/pofol.js"></script>
 
-<link rel="stylesheet" href="css/common.css">
-<script src="js/common.js"></script>
+  <link rel="stylesheet" href="css/pofol.css">
+  <script src="js/pofol.js"></script>
+
+  <link rel="stylesheet" href="css/common.css">
+  <script src="js/common.js"></script>
 
 </head>
 
@@ -37,7 +37,7 @@ require_once "head.php";
           <div class="title">
             <span>MOBILE APP UI/UX</span>
             <div class="underline"></div>
-            <h1>크라우드 펀딩 플랫폼 'MOEZLE'</h1> 
+            <h1>크라우드 펀딩 플랫폼 'MOEZLE'</h1>
           </div>
           <div class="link-box">
             <div class="link">
