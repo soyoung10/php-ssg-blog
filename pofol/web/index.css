@@ -259,17 +259,17 @@ a {
 .items-wrap .items>div>.main {
   display: flex;
   justify-content: space-around;
-  padding: 7%;
+  padding: 5%;
 }
 
 .main>.dream-tem {
-  width: 230px;
-  height: 400px;
-  box-shadow: 3px 3px 10px gray;
+  padding: 10px;
+  
 }
 
 .main>.dream-tem>img {
-  width: 230px;
+  width: 280px;
+  box-shadow: 3px 3px 10px gray;
 }
 
 /*section-3*/
