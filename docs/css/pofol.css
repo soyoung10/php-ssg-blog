@@ -4,21 +4,27 @@
 
 .portfolio {
   display: flex;
+  justify-content: center;
 }
 
 .portfolio > div {
-  margin: 5%;
-  padding: 5px;
+  margin: 3%;
   width: 500px;
-  height: 1500px;
-  border: 3px solid;
-  border-image-slice: : 1;
+  height: 500px;
+  border: 5px solid;
+  border-image-slice: 1;
   border-image-source: linear-gradient(to right, #FFCAC9, #737DFE);
+  padding: 10px 0;
+}
+
+.portfolio > div > .banner {
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio > div > .banner > img{
   width: 480px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .work-text{
@@ -38,6 +44,7 @@
 
 .work-text > div:first-child > span{
   padding: 0 1px;
+  font-size: 1.1rem;
 }
 
 .work-text > div:first-child > h1{
@@ -45,8 +52,8 @@
 }
 
 .underline {
-  width: 200px;
-  height: 7px;
+  width: 180px;
+  height: 5px;
   background-image: linear-gradient(to right, #FFCAC9, #737DFE);
 }
 
@@ -55,7 +62,7 @@
 }
 
 .work-text > div:last-child > div {
-  margin: 1px;
+  margin: 4%;
 }
 
 .work-text > div:last-child > div > a{
@@ -67,4 +74,5 @@
   border-radius: 30px;
   background-color: #89A2ED;
   color: white;
+  font-weight: bold;
 }
