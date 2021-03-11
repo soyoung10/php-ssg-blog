@@ -1,3 +1,14 @@
+// 새로고침, 스크롤 상단으로
+
+window.onload = function() {
+  this.setTimeout (function (){
+    scrollTo(0, 0);
+  }, 100);
+}
+
+
+// intro page
+
 $(function () {
   var introPage = $('.intro-page'),
     clickButton = introPage.find('.click-button');
@@ -14,7 +25,7 @@ $(function () {
 
 
 
-// <![CDATA[
+// 마우스 효과
 var colour = "lightgoldenrodyellow";
 var sparkles = 40;
 
