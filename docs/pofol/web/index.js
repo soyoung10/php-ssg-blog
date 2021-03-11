@@ -1,9 +1,11 @@
 // 새로고침, 스크롤 상단으로
 
 window.onload = function() {
-  this.setTimeout (function (){
-    scrollTop(0, 0);
-  }, 100);
+  setTimeout (function () {
+    scrollTo(0,0);
+
+  },100);
+
 }
 
 

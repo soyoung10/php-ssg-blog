@@ -1,8 +1,12 @@
 // 새로고침, 스크롤 상단으로
 
-$(document).ready(function(){
-  $(this).scrollTop(0);
-});
+window.onload = function() {
+  setTimeout (function () {
+    scrollTo(0,0);
+
+  },100);
+
+}
 
 
 // intro page
