@@ -65,7 +65,7 @@
   margin: 4%;
 }
 
-.work-text>div:last-child>div>a {
+.work-text > div:last-child > div > a{
   width: 180px;
   height: 50px;
   display: flex;
