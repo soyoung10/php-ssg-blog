@@ -1,3 +1,5 @@
+// intro page
+
 $(function () {
   var introPage = $('.intro-page'),
     clickButton = introPage.find('.click-button');
@@ -14,7 +16,7 @@ $(function () {
 
 
 
-// <![CDATA[
+// 마우스 효과
 var colour = "lightgoldenrodyellow";
 var sparkles = 40;
 

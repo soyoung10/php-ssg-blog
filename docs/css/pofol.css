@@ -4,53 +4,90 @@
 
 .portfolio {
   display: flex;
+<<<<<<< HEAD
 }
 
 .portfolio > div {
   margin: 5%;
   padding: 5px;
+=======
+  justify-content: center;
 }
 
-.portfolio > div > .banner > img{
-  width: 480px;
-  border-radius: 10px;
+.portfolio>div {
+  margin: 3%;
+  width: 500px;
+  height: 500px;
+  border: 5px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #FFCAC9, #737DFE);
+  padding: 10px 0;
+>>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
 
-.work-text{
-  padding: 1px;
-}
-
-.work-text > div {
+.portfolio>div>.banner {
   display: flex;
   justify-content: center;
 }
 
-.work-text > div:first-child {
+.portfolio>div>.banner>img {
+  width: 480px;
+<<<<<<< HEAD
+  border-radius: 10px;
+}
+
+.work-text{
+=======
+  border-radius: 5px;
+}
+
+.work-text {
+>>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
+  padding: 1px;
+}
+
+.work-text>div {
+  display: flex;
+  justify-content: center;
+}
+
+.work-text>div:first-child {
   display: flex;
   flex-direction: column;
   padding: 10px;
 }
 
+<<<<<<< HEAD
 .work-text > div:first-child > span{
   padding: 0 1px;
+=======
+.work-text>div:first-child>span {
+  padding: 0 1px;
+  font-size: 1.1rem;
+>>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
 
-.work-text > div:first-child > h1{
+.work-text>div:first-child>h1 {
   text-align: center;
 }
 
 .underline {
-  width: 200px;
-  height: 7px;
+  width: 180px;
+  height: 5px;
   background-image: linear-gradient(to right, #FFCAC9, #737DFE);
 }
 
-.work-text > div:last-child {
+.work-text>div:last-child {
   padding: 0 10px;
 }
 
+<<<<<<< HEAD
 .work-text > div:last-child > div {
   margin: 1px;
+=======
+.work-text>div:last-child>div {
+  margin: 4%;
+>>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
 
 .work-text > div:last-child > div > a{
@@ -60,5 +97,12 @@
   justify-content: center;
   align-items: center;
   border-radius: 30px;
+<<<<<<< HEAD
   background-color: #89A2ED;
+=======
+  background-color: #b19fe6;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+>>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
