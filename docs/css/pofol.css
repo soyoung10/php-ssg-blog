@@ -72,7 +72,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  background-image: linear-gradient(to right, #FFCAC9, #737DFE);
+  background-color: #FFCAC9;
   color: white;
   text-align: center;
+}
+
+.work-text > div:last-child > div:last-child > a {
+  background-color: #737DFE;
 }
