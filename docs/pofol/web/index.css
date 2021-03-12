@@ -45,7 +45,7 @@ a {
 }
 
 :root {
-  --site-width: 1920px;
+  --site-width: 1916px;
 }
 
 .con-min-width {
@@ -200,8 +200,8 @@ a {
   z-index: -999;
 }
 
-.dream-banner>img {
-  width: 1920px;
+.dream-banner > .dream-wrapper > .dream-img > img {
+  width: var(--site-width);
 }
 
 
