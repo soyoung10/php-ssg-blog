@@ -72,12 +72,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-<<<<<<< HEAD
-  background-color: #89A2ED;
-=======
-  background-color: #b19fe6;
+  background-image: linear-gradient(to right, #FFCAC9, #737DFE);
   color: white;
-  font-weight: bold;
-  text-align: center;
->>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
