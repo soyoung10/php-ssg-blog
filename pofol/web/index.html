@@ -31,7 +31,8 @@
   <link rel="stylesheet" href="index.css">
   <script src="index.js" defer></script>
 
-  <!-- / 자동추가 -->
+  <!-- 주소 뒤에 /를 붙여주는 코드 
+  index.html, index.ssghtml.php에도 추가 -->
   <script>
     if (location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/') {
       location.replace(location.href + '/');
