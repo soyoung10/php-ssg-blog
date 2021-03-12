@@ -193,8 +193,8 @@ h2{
   width: 45px;
 }
 
-.app{
-    width: 150px;
+.brand__remark > span:last-child > p > .app{
+  width: 150px;
 }
 
 /*design*/
