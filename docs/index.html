@@ -174,8 +174,23 @@
     <!--main-->
 
     <main>
- <link rel="stylesheet" href="css/index.css">
- <script src="js/index.js" defer></script>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js" defer></script>
+
+  <script>
+   // 오직 index.html, index.html 에도 추가해주세요
+   if ( location.pathname.indexOf('index.html') !== -1 && location.pathname.indexOf('index.html') !== -1 && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+  </script>
+ 
+</head>
 
  <section class="section-title con-min-width">
    <h1 class="con">

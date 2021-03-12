@@ -12,7 +12,7 @@ require_once "head.php";
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="/css/pofol.css">
-  <script src="/js/pofol.js"></script>
+  <script src="/js/pofol.js" defer></script>
 
 </head>
 

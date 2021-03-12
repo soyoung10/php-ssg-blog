@@ -9,6 +9,7 @@
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-680JQ7V954"></script>
+
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -31,12 +32,13 @@
   <link rel="stylesheet" href="index.css">
   <script src="index.js" defer></script>
 
-  <!-- 주소 뒤에 /를 붙여주는 코드 
-  index.html, index.html에도 추가 -->
   <script>
-    if (location.pathname.substr(-10, 10) != 'index.html' && location.pathname.substr(-1, 1) != '/') {
-      location.replace(location.href + '/');
-    }
+    // 오직 index.html, index.html 에도 추가해주세요.
+    if ( location.pathname.indexOf('index.html') !== -1 && location.pathname.indexOf('index.html') !== -1 && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+  </script>
+</head>
+<body>
+
   </script>
 </head>
 
