@@ -20,12 +20,21 @@
 .portfolio>div>.banner {
   display: flex;
   justify-content: center;
-  height: 285px;
+  height: 284px;
 }
 
-.portfolio>div>.banner>img {
+.portfolio> div:last-child >.banner{
+  display: flex;
+  align-items: center;
+}
+
+.portfolio>div >.banner >img {
   width: 480px;
   border-radius: 5px;
+}
+
+.portfolio> div:last-child >.banner > img {
+  height: 246px;
 }
 
 .work-text {
