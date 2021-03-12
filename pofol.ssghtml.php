@@ -48,7 +48,7 @@ require_once "head.php";
       </div>
       <div class="work02">
         <div class="banner">
-          <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/sherry/loading.jpg" alt="">
+          <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/web/main2.png" alt="">
         </div>
         <div class="work-text">
           <div class="title">
