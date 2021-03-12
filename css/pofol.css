@@ -20,6 +20,7 @@
 .portfolio>div>.banner {
   display: flex;
   justify-content: center;
+  height: 285px;
 }
 
 .portfolio>div>.banner>img {
