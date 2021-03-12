@@ -11,8 +11,8 @@ require_once "head.php";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/pofol.css">
-  <script src="js/pofol.js"></script>
+  <link rel="stylesheet" href="/css/pofol.css">
+  <script src="/js/pofol.js"></script>
 
 </head>
 
@@ -41,7 +41,7 @@ require_once "head.php";
               <a href="https://b.sherryisprecious.com/pofol/process/interaction.html">MOEZLE</a>
             </div>
             <div class="link">
-              <a href="https://b.sherryisprecious.com/pofol/process/process.html">MOEZLE (coding ver.)</a>
+              <a href="https://b.sherryisprecious.com/pofol/process/process.html">MOEZLE <br>(coding ver.)</a>
             </div>
           </div>
         </div>
