@@ -4,13 +4,6 @@
 
 .portfolio {
   display: flex;
-<<<<<<< HEAD
-}
-
-.portfolio > div {
-  margin: 5%;
-  padding: 5px;
-=======
   justify-content: center;
 }
 
@@ -22,7 +15,6 @@
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #FFCAC9, #737DFE);
   padding: 10px 0;
->>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
 
 .portfolio>div>.banner {
@@ -32,17 +24,10 @@
 
 .portfolio>div>.banner>img {
   width: 480px;
-<<<<<<< HEAD
-  border-radius: 10px;
-}
-
-.work-text{
-=======
   border-radius: 5px;
 }
 
 .work-text {
->>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
   padding: 1px;
 }
 
@@ -57,14 +42,9 @@
   padding: 10px;
 }
 
-<<<<<<< HEAD
-.work-text > div:first-child > span{
-  padding: 0 1px;
-=======
 .work-text>div:first-child>span {
   padding: 0 1px;
   font-size: 1.1rem;
->>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
 
 .work-text>div:first-child>h1 {
@@ -81,13 +61,8 @@
   padding: 0 10px;
 }
 
-<<<<<<< HEAD
-.work-text > div:last-child > div {
-  margin: 1px;
-=======
 .work-text>div:last-child>div {
   margin: 4%;
->>>>>>> 998d95f8d3e283aa815124f17155c011dba3e53d
 }
 
 .work-text > div:last-child > div > a{
