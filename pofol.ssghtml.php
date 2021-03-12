@@ -70,6 +70,7 @@ require_once "head.php";
   </div>
 </section>
 
+
 <?php
 require_once "foot.php";
 ?>
