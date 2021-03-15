@@ -200,7 +200,7 @@ a {
   z-index: -999;
 }
 
-.dream-banner > .dream-wrapper > .dream-img > img {
+.dream-banner>.dream-wrapper>.dream-img>img {
   width: var(--site-width);
 }
 
@@ -263,7 +263,7 @@ a {
 
 .main>.dream-tem {
   padding: 10px;
-  
+
 }
 
 .main>.dream-tem>img {
