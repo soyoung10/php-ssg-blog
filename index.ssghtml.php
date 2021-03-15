@@ -15,14 +15,6 @@ $articles = &getArticles();
   <link rel="stylesheet" href="css/index.css">
   <script src="js/index.js" defer></script>
 
-  <script>
-    // 오직 index.html, index.ssghtml.php 에도 추가해주세요
-    if (location.pathname.indexOf('index.ssghtml.php') !== -1 && location.pathname.indexOf('index.html') !== -1 &&
-      location.pathname.substr(-1, 1) != '/') {
-      location.replace(location.href + '/');
-    }
-  </script>
-
 </head>
 
 <section class="section-title con-min-width">
