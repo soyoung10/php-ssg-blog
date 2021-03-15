@@ -23,6 +23,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 
+  <script>
+    // 오직 index.html, index.ssghtml.php 에도 추가해주세요
+    if ( location.pathname.indexOf('index.ssghtml.php') !== -1 && location.pathname.indexOf('index.html') !== -1 && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+   </script>
+   
   <link rel="stylesheet" href="index.css">
   <script src="index.js" defer></script>
 </head>
