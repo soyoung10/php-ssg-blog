@@ -1,5 +1,13 @@
 // intro page
 
+$('html').addClass('scroll-lock');
+
+$('section > .click-button').click(function(){
+  $(this).parent().hide();
+  $('html').removeClass('scroll-lock');
+});
+
+
 $(function () {
   var introPage = $('.intro-page'),
     clickButton = introPage.find('.click-button');

@@ -59,6 +59,11 @@ a {
 
 /*intro-page*/
 
+
+.scroll-lock body {
+  overflow-y: hidden;
+}
+
 .intro-page {
   position: fixed;
   background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
