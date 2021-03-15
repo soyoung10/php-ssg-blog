@@ -38,7 +38,7 @@ require_once "head.php";
           </div>
           <div class="link-box">
             <div class="link">
-              <a href="https://b.sherryisprecious.com/pofol/process/interaction.html">MOEZLE</a>
+              <a href="https://b.sherryisprecious.com/pofol/process/index.html">MOEZLE</a>
             </div>
             <div class="link">
               <a href="https://b.sherryisprecious.com/pofol/process/pofol.html">MOEZLE <br>(coding ver.)</a>
