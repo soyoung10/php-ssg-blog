@@ -16,7 +16,7 @@ require_once "head.php";
 <section class="section-title con-min-width">
     <h1 class="con">
         <span>
-            <i class="fas fa-newspaper"></i>
+            <i class="fas fa-asterisk"></i>
         </span>
         <span>
             DETAIL
