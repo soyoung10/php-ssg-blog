@@ -3,7 +3,7 @@ $('html').addClass('scroll-lock');
 
 $('.section-intro > .con > .intro-page > .intro-wrap > .click-button').click(function () {
   $('.section-intro').hide();
-  $('html').removeClass('.scroll-lock');
+  $('html').removeClass('scroll-lock');
 });
 
 
