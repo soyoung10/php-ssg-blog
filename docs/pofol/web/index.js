@@ -1,8 +1,8 @@
 // intro page
-$('html').addClass('.scroll-lock');
+$('html').addClass('scroll-lock');
 
-$('.section-intro > .con > .intro-page > .intro-wrap > .click-button').click(function(){
-  $(this).parent().hide();
+$('.section-intro > .con > .intro-page > .intro-wrap > .click-button').click(function () {
+  $('.section-intro').hide();
   $('html').removeClass('.scroll-lock');
 });
 
