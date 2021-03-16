@@ -1,7 +1,7 @@
 // intro page
 $('html').addClass('.scroll-lock');
 
-$('.section00 > .con > .intro-page > .intro-wrap > .click-button').click(function(){
+$('.section-intro > .con > .intro-page > .intro-wrap > .click-button').click(function(){
   $(this).parent().hide();
   $('html').removeClass('.scroll-lock');
 });

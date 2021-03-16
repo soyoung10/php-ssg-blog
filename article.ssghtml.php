@@ -7,7 +7,7 @@ require_once "head.php";
 <section class="section-title con-min-width">
   <h1 class="con">
     <span>
-      <i class="fas fa-address-card"></i>
+      <i class="fas fa-folder"></i>
     </span>
     <span>
       ARTICLE
