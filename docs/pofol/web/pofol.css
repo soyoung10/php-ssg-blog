@@ -35,19 +35,12 @@ min-width: var(--site-width);
 
 /*custom*/
 
-
-.web-img-drop{
-  display: flex;
-  flex-direction: column;
-}
-
-.web-img-drop > section {
-  display: flex;
-  flex-direction: column;
+section > h2 {
+  text-align: center;
 }
 
 .web-img-drop > section > img{
-  display: flex;
-  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
   width: 900px;
 }
