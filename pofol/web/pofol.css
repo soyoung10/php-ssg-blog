@@ -36,8 +36,7 @@ min-width: var(--site-width);
 /*custom*/
 
 
-.web-img-drop {
-  border: 2px solid red;
+.web-img-drop{
   display: flex;
   flex-direction: column;
 }
