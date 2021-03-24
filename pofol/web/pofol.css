@@ -2,6 +2,21 @@ body{
   background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
 }
 
-.web-img-drop > section > img {
+.web-img-drop {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.web-img-drop > section {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.web-img-drop > section > img{
+  display: flex;
+  align-self: center;
   width: 900px;
+  border: 2px solid gold;
 }
