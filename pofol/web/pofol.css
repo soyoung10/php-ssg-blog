@@ -2,11 +2,6 @@ body{
   background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
 }
 
-.web-img-drop{
-  display: flex;
-  justify-content: center;
-}
-
-.mockup-hd {
-  width: 500px;
+.web-img-drop > section > img {
+  width: 900px;
 }
