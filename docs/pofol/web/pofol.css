@@ -35,12 +35,10 @@ min-width: var(--site-width);
 
 /*custom*/
 
-section > h2 {
+.web-img-drop{
   text-align: center;
 }
 
-.web-img-drop > section > img{
-  margin-right: auto;
-  margin-left: auto;
-  width: 900px;
+.web-img-drop > section > img {
+  width: 1000px;
 }
