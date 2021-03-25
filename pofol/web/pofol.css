@@ -6,7 +6,7 @@ li {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+  background-image: linear-gradient(to bottom, #dfe9f3, white);
 }
 
 a {
@@ -19,11 +19,10 @@ a {
   margin-right: auto;
 }
 
-
 /*library*/
 
 :root {
-  --site-width: 1900px;
+  --site-width: 1920px;
 }
 
 .con {
@@ -34,13 +33,37 @@ a {
   min-width: var(--site-width);
 }
 
-
 /*custom*/
 
 .web-img-drop {
   text-align: center;
 }
 
-.web-img-drop>section>img {
+.web-img-drop>section {
+  margin-top: 4%;
+}
+
+.web-img-drop>section>h2 {
+  margin-top: 3%;
+}
+
+.web-img-drop>section>.text {
+  margin-top: -3%;
+}
+
+
+.web-img-drop>section>.mockup {
   width: 1000px;
+}
+
+.web-img-drop>.section-footer {
+  height: 500px;
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-img-drop>.section-footer>.logo-ft {
+  width: 300px;
 }
