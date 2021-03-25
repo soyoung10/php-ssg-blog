@@ -60,7 +60,8 @@ a {
 /*intro-page*/
 
 
-.scroll-lock, .scroll-lock > body {
+.scroll-lock,
+.scroll-lock>body {
   overflow-y: hidden;
 }
 

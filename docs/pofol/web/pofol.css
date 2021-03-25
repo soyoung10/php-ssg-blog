@@ -1,44 +1,45 @@
-
 /* nomalize */
 
-body, ul, li{
-list-style: none;
-padding: 0;
-margin: 0;
-background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+body,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
 }
 
-a{
-text-decoration: none;
-color: #393939;
+a {
+  text-decoration: none;
+  color: #393939;
 }
 
-.con{
-margin-left: auto;
-margin-right: auto;
+.con {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 /*library*/
 
-:root{
---site-width: 1900px;
+:root {
+  --site-width: 1900px;
 }
 
-.con{
-width: var(--site-width);
+.con {
+  width: var(--site-width);
 }
 
-.con-min-width{
-min-width: var(--site-width);
+.con-min-width {
+  min-width: var(--site-width);
 
 
-/*custom*/
+  /*custom*/
 
-.web-img-drop{
-  text-align: center;
-}
+  .web-img-drop {
+    text-align: center;
+  }
 
-.web-img-drop > section > img {
-  width: 1000px;
-}
+  .web-img-drop>section>img {
+    width: 1000px;
+  }
