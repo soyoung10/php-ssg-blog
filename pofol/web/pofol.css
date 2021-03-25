@@ -32,14 +32,15 @@ a {
 
 .con-min-width {
   min-width: var(--site-width);
+}
 
 
-  /*custom*/
+/*custom*/
 
-  .web-img-drop {
-    text-align: center;
-  }
+.web-img-drop {
+  text-align: center;
+}
 
-  .web-img-drop>section>img {
-    width: 1000px;
-  }
+.web-img-drop>section>img {
+  width: 1000px;
+}
