@@ -28,7 +28,7 @@
   align-items: center;
 }
 
-.portfolio>div >.banner >img {
+.portfolio > div >.banner > a > img {
   width: 480px;
   border-radius: 5px;
 }

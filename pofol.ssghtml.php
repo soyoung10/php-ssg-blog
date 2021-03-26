@@ -50,7 +50,9 @@ require_once "head.php";
       </div>
       <div class="work02">
         <div class="banner">
-          <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/web/main2.png" alt="">
+          <a href="#">
+            <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/web/main2.png" alt="">
+          </a>
         </div>
         <div class="work-text">
           <div class="title">
