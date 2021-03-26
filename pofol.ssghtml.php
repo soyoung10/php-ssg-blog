@@ -50,7 +50,7 @@ require_once "head.php";
       </div>
       <div class="work work02">
         <div class="banner">
-          <a href="#">
+          <a href="https://b.sherryisprecious.com/pofol/mobile/img/ui-2.jpg">
             <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/web/main2.png" alt="">
           </a>
         </div>
