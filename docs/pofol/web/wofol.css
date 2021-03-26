@@ -64,6 +64,11 @@ a {
   align-items: center;
 }
 
+.web-img-drop>.section-footer> h1 {
+  position: absolute;
+  color: white;
+}
+
 .web-img-drop>.section-footer>.logo-ft {
   width: 300px;
 }
