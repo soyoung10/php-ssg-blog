@@ -23,17 +23,17 @@
   height: 284px;
 }
 
-.portfolio> div:last-child >.banner{
+.portfolio>div:last-child>.banner {
   display: flex;
   align-items: center;
 }
 
-.portfolio > .work >.banner > a > img {
+.portfolio>.work>.banner>a>img {
   width: 480px;
   border-radius: 5px;
 }
 
-.portfolio> div:last-child >.banner > a > img {
+.portfolio>div:last-child>.banner>a>img {
   height: 246px;
 }
 
@@ -75,7 +75,7 @@
   margin: 4%;
 }
 
-.work-text > div:last-child > div > a{
+.work-text>div:last-child>div>a {
   width: 180px;
   height: 50px;
   display: flex;
@@ -87,6 +87,6 @@
   text-align: center;
 }
 
-.work-text > div:last-child > div:last-child > a {
+.work-text>div:last-child>div:last-child>a {
   background-color: #737DFE;
 }
