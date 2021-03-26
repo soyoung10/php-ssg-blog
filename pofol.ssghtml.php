@@ -26,7 +26,7 @@ require_once "head.php";
 <section class="pofol-section con-min-width">
   <div class="con">
     <div class="portfolio">
-      <div class="work01">
+      <div class="work work01">
         <div class="banner">
           <a href="https://b.sherryisprecious.com/pofol/mobile/img/ui-1.jpg">
             <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/ux/Untitled-7.jpg" alt="">
@@ -48,7 +48,7 @@ require_once "head.php";
           </div>
         </div>
       </div>
-      <div class="work02">
+      <div class="work work02">
         <div class="banner">
           <a href="#">
             <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/web/main2.png" alt="">

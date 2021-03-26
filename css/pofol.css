@@ -28,12 +28,12 @@
   align-items: center;
 }
 
-.portfolio > div >.banner > a > img {
+.portfolio > .work >.banner > a > img {
   width: 480px;
   border-radius: 5px;
 }
 
-.portfolio> div:last-child >.banner > img {
+.portfolio> div:last-child >.banner > a > img {
   height: 246px;
 }
 
