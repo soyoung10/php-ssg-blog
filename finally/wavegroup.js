@@ -10,7 +10,7 @@ export class WaveGroup {
     //wave 하나 당, 포인트 수
     this.totalPoints = 6;
 
-    //wave 색
+    //wave 색상
     this.color = ['rgba(0,199,235,.4)', 'rgba(0,146,199,.4)', 'rgba(0,87,158,.4)'];
 
     this.waves = [];
