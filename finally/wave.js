@@ -62,7 +62,9 @@ export class Wave {
       const cx = (prevX + this.points[i], x) / 2;
       const cy = (prevY + this.points[i], y) / 2;
 
-      ctx.lineTo(cx, cy);
+      //직선wave lineTo(cx, cy)
+      //곡선wave quadraticCurveTo(prevX, prevY, cx, cy) 
+      ctx.quadraticCurveTo(prevX, prevY, cx, cy);
 
       prevX = this.points[i].x;
       prevY = this.points[i].y;
