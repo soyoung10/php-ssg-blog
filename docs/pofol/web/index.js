@@ -23,7 +23,7 @@ $(function () {
 
 
 
-// ¸¶¿ì½º È¿°ú
+// ë§ˆìš°ìŠ¤ íš¨ê³¼
 var colour = "lightgoldenrodyellow";
 var sparkles = 40;
 
