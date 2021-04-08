@@ -23,7 +23,7 @@ $(function () {
 
 
 
-// ë§ˆìš°ìŠ¤ íš¨ê³¼
+// ¸¶¿ì½º È¿°ú
 var colour = "lightgoldenrodyellow";
 var sparkles = 40;
 
@@ -178,4 +178,3 @@ function createDiv(height, width) {
   div.style.backgroundColor = colour;
   return (div);
 }
-// ]]>
