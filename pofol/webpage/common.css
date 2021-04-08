@@ -1,0 +1,98 @@
+/*normalize*/
+body,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*library*/
+
+:root {
+  --site-width: 1920px;
+}
+
+.con {
+  width: var(--site-width);
+}
+
+.con-min-width {
+  min-width: var(--site-width);
+}
+
+
+
+/*top-bar*/
+
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.top-bar>ul {
+  display: flex;
+  margin-left: 3%;
+}
+
+.top-bar>ul:last-child {
+  margin-right: 3%;
+}
+
+.top-bar>ul>li {
+  padding: 0 30px;
+  font-size: .8rem;
+}
+
+
+/*footer*/
+
+.section03 {
+  margin-top: 15%;
+}
+
+.section03>.con>div {
+  background-color: black;
+}
+
+.bottom-title {
+  text-align: center;
+  color: white;
+}
+
+.bottom>ul {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom>ul>li {
+  padding: 0 10px;
+  text-align: center;
+  color: white;
+}
+
+.bottom-kr>ul>li {
+  margin: 20px 50px;
+}
+
+.bottom-en>ul>li {
+  margin: 0 60px;
+}
+
+.bottom-en>ul ul>li {
+  font-size: .8rem;
+  padding: 3px 0;
+}
