@@ -10,7 +10,7 @@
 .portfolio>div {
   margin: 3%;
   width: 500px;
-  height: 250px;
+  height: 284px;
   border: 5px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to right, #FFCAC9, #737DFE);
