@@ -43,7 +43,7 @@ require_once "head.php";
       <div class="work work03">
         <div class="banner">
           <a href="https://b.sherryisprecious.com/pofol/webpage/index.html">
-            <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/web/sherry/loading.jpg" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/soyoung10/web-res/sherry/loading.jpg" alt="">
           </a>
         </div>
       </div>
